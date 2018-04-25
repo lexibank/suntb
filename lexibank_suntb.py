@@ -2,9 +2,10 @@
 from __future__ import unicode_literals, print_function
 
 from clldutils.path import Path
+from clldutils.misc import slug
 from pylexibank.dataset import Metadata
 from pylexibank.dataset import Dataset as BaseDataset
-from pylexibank.lingpy_util import getEvoBibAsBibtex
+from pylexibank.util import getEvoBibAsBibtex
 
 from clldutils.text import split_text
 import re
@@ -19,9 +20,9 @@ class Dataset(BaseDataset):
             language_map = {}
             for language in self.languages:
                 ds.add_language(
-                    ID=language['NAME'],
-                    glottocode=language['GLOTTOCODE'],
-                    name=language['GLOTTOLOG_NAME'],
+                    ID=slug(language['NAME']),
+                    Glottocode=language['GLOTTOCODE'],
+                    Name=language['NAME'],
                 )
 
             # add concepts, first from the local list, then from the conceptlist
@@ -39,16 +40,18 @@ class Dataset(BaseDataset):
                     concept_map[concept['ENGLISH']] = concept['CL_ENGLISH']
                 else:
                     ds.add_concept(
-                        ID=concept['ENGLISH'],
-                        conceptset=concept['CONCEPTICON_ID'],
-                        gloss=concept['CONCEPTICON_GLOSS'],
+                        ID=slug(concept['ENGLISH']),
+                        Concepticon_ID=concept['CONCEPTICON_ID'],
+                        Name=concept['ENGLISH'],
+                        Concepticon_Gloss=concept['CONCEPTICON_GLOSS'],
                     )
 
             for gloss, concept in self.conceptlist.concepts.items():
                 ds.add_concept(
-                    ID=concept.english,
-                    conceptset=concept.concepticon_id,
-                    gloss=concept.concepticon_gloss,
+                    ID=slug(concept.english),
+                    Name=concept.english,
+                    Concepticon_ID=concept.concepticon_id,
+                    Concepticon_Gloss=concept.concepticon_gloss,
                 )
 
             # add lexemes
@@ -89,11 +92,11 @@ class Dataset(BaseDataset):
                     #tokens = self._tokenizer("IPA", form)
 
                     for row in ds.add_lexemes(
-                        Language_ID=language,
-                        Parameter_ID=gloss,
+                        Language_ID=slug(language),
+                        Parameter_ID=slug(gloss),
                         Value=form,
-                        Source='Sun1991',
-                        ):
+                        Source=['Sun1991'],
+                    ):
                         pass
 
     def cmd_download(self, **kw):
