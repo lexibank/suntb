@@ -6,6 +6,8 @@ Cite the source dataset as
 
 Available online at https://stedt.berkeley.edu/~stedt-cgi/rootcanal.pl/source/ZMYYC
 
+Conceptlist in Concepticon: [Sun-1991-1004](http://concepticon.clld.org/contributions/Sun-1991-1004)
+
 ## Statistics
 
 
@@ -21,7 +23,7 @@ Available online at https://stedt.berkeley.edu/~stedt-cgi/rootcanal.pl/source/ZM
 - **Cognacy:** 0 cognates in 0 cognate sets
 - **Invalid lexemes:** 51,441
 - **Tokens:** 0
-- **Segments:** 0 (0 LingPy errors, 0 CLPA errors, 0 CLPA modified)
+- **Segments:** 0 (0 BIPA errors, 0 CTLS sound class errors, 0 CLTS modified)
 - **Inventory size (avg):** 0.00
 
 ## Possible Improvements:

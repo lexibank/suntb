@@ -16,6 +16,7 @@ class Dataset(BaseDataset):
     def cmd_install(self, **kw):
 
         with self.cldf as ds:
+            ds.add_sources(*self.raw.read_bib())
             # add languages
             language_map = {}
             for language in self.languages:
