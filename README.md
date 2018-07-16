@@ -16,18 +16,12 @@ Conceptlist in Concepticon: [Sun-1991-1004](http://concepticon.clld.org/contribu
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
 
-- **Varieties:** 52
-- **Concepts:** 998
-- **Lexemes:** 51,441
+- **Varieties:** 51
+- **Concepts:** 996
+- **Lexemes:** 50,437
 - **Synonymy:** 1.04
 - **Cognacy:** 0 cognates in 0 cognate sets
-- **Invalid lexemes:** 51,441
+- **Invalid lexemes:** 0
 - **Tokens:** 0
 - **Segments:** 0 (0 BIPA errors, 0 CTLS sound class errors, 0 CLTS modified)
 - **Inventory size (avg):** 0.00
-
-## Possible Improvements:
-
-- Languages missing glottocodes: 2/52 (3.85%)
-- Entries missing concepts: 0/51441 (0.00%)
-

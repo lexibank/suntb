@@ -86,7 +86,7 @@ class Dataset(BaseDataset):
                     form = re.sub('\s+', ' ', form).strip()
 
                     # skip over if empty entry
-                    if form == '*':
+                    if form in ['*', '--']:
                         continue
 
                     # comment out once a profile is made
