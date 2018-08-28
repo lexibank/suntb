@@ -6,7 +6,9 @@
     "dc:identifier": "https://stedt.berkeley.edu/~stedt-cgi/rootcanal.pl/source/ZMYYC",
     "dc:source": "sources.bib",
     "dc:title": "Sun ZMYYC [Tibeto-Burman phonology and lexicon]",
+    "dcat:accessURL": "https://github.com/lexibank/suntb",
     "rdf:ID": "suntb",
+    "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "dialect": {
         "commentPrefix": null
     },
@@ -14,14 +16,15 @@
         {
             "dc:title": "environment",
             "properties": {
-                "concepticon_version": "v1.1.0-81-g64a1b5d",
-                "glottolog_version": "v3.2-69-gcf07b00"
+                "glottolog_version": "v3.3.2",
+                "concepticon_version": "pyconcepticon-1.4.0-10-g1d57531"
             }
         }
     ],
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
+            "dc:extent": 50437,
             "tableSchema": {
                 "columns": [
                     {
@@ -116,6 +119,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
+            "dc:extent": 51,
             "tableSchema": {
                 "columns": [
                     {
@@ -161,6 +165,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
+            "dc:extent": 996,
             "tableSchema": {
                 "columns": [
                     {
@@ -192,10 +197,11 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#CognateTable",
+            "dc:extent": 0,
             "tableSchema": {
                 "columns": [
                     {
-                        "datatype": "integer",
+                        "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
                         "name": "ID"
                     },
