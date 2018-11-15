@@ -12,6 +12,7 @@ import re
 
 class Dataset(BaseDataset):
     dir = Path(__file__).parent
+    id = 'suntb'
 
     def cmd_install(self, **kw):
 
@@ -76,17 +77,22 @@ class Dataset(BaseDataset):
 
                 # remove doubt marks
                 reflex = reflex.replace('???', '')
+                reflex = reflex.replace('?', '')
                 reflex = reflex.replace('??', '')
 
                 # remove elipsis
                 reflex = reflex.replace('...', ' ')
+
+                # remove preceding boundaries
+                if reflex.startswith('◦'):
+                    reflex = reflex[1:]
 
                 for form in split_text(reflex, separators=';/'):
                     # remove multiple spaces; leading&trailing
                     form = re.sub('\s+', ' ', form).strip()
 
                     # skip over if empty entry
-                    if form == '*':
+                    if form in ['*', '--']:
                         continue
 
                     # comment out once a profile is made
