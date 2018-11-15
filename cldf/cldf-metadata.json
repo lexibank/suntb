@@ -6,23 +6,25 @@
     "dc:identifier": "https://stedt.berkeley.edu/~stedt-cgi/rootcanal.pl/source/ZMYYC",
     "dc:source": "sources.bib",
     "dc:title": "Sun ZMYYC [Tibeto-Burman phonology and lexicon]",
+    "dcat:accessURL": "https://github.com/lexibank/suntb",
     "rdf:ID": "suntb",
+    "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "dialect": {
         "commentPrefix": null
     },
     "notes": [
         {
+            "dc:title": "environment",
             "properties": {
-                "glottolog_version": "v3.1.1-94-g1e52df9",
-                "concepticon_version": "v1.1.0-78-g0717e41"
-            },
-            "dc:title": "environment"
+                "glottolog_version": "pyglottolog-1.2.1-77-g24ddcfb",
+                "concepticon_version": "pyconcepticon-1.4.0-50-g100c401"
+            }
         }
     ],
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 51441,
+            "dc:extent": 50437,
             "tableSchema": {
                 "columns": [
                     {
@@ -117,7 +119,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 52,
+            "dc:extent": 51,
             "tableSchema": {
                 "columns": [
                     {
@@ -163,7 +165,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 998,
+            "dc:extent": 996,
             "tableSchema": {
                 "columns": [
                     {
@@ -199,7 +201,7 @@
             "tableSchema": {
                 "columns": [
                     {
-                        "datatype": "integer",
+                        "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
                         "name": "ID"
                     },

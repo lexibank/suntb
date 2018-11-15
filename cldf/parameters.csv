@@ -2,11 +2,9 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 fineflour,fine (flour),2157,FINE OR THIN
 future,future,2427,FUTURE
 hotseason,hot season,1342,SUMMER
-jewsharp,jew's harp,3048,MOUTH HARP
 newyearseve,new year's eve,2188,NEW YEAR'S EVE
 singfolksongbeforeaftwork,sing folksong before / aft work,,
 soybean,soybean,2028,SOYA BEAN
-takeoutfromwater,take out from water,,
 takeoutfromwaterwithtool,take out from water with tool,,
 thigh,thigh,800,THIGH
 threshingtime,threshing time,,
@@ -161,7 +159,7 @@ child,child,1304,CHILD (YOUNG HUMAN)
 chin,chin,1510,CHIN
 chipped,chipped,,
 choke,choke,129,CHOKE
-choptree,chop (tree),155,CHOP
+choptree,chop (tree),463,FELL (A TREE)
 chopper,chopper,3067,CLEAVER
 chopsticks,chopsticks,1987,CHOPSTICKS
 city,city,2547,CITY
@@ -208,9 +206,9 @@ cryoutyell,cry out / yell,715,SHOUT
 cucumber,cucumber,496,CUCUMBER
 cup,cup,476,CUP
 cut,cut,1432,CUT
-cutfirewood,cut (firewood),2155,CUT (WITH SCISSORS)
+cutfirewood,cut (firewood),155,CHOP
 cutvegetable,cut (vegetable),2156,CUT (WITH KNIFE)
-cutopenfish,cut open (fish),1119,DIVIDE
+cutopenfish,cut open (fish),,
 dance,dance,1879,DANCE
 dare,dare,1779,DARE
 dark,dark,706,DARK
@@ -256,7 +254,7 @@ dream,dream,1920,DREAM (SOMETHING)
 drink,drink,1401,DRINK
 drip,drip,808,DRIP (FALL IN GLOBULES)
 driveaway,drive away,30,DISPEL
-drop,drop,2866,DROP (SOMETHING)
+drop,drop,808,DRIP (FALL IN GLOBULES)
 dropfall,drop / fall,750,DROP
 drum,drum,908,DRUM
 drunk,drunk,1463,DRUNK
@@ -380,7 +378,7 @@ go,go,695,GO
 gothroughahole,go through (a hole),1742,TRAVERSE
 goat,goat,1502,GOAT
 goatsheepgeneric,goat / sheep (generic),2684,CAPRINE (GOAT OR SHEEP)
-goddeity,god / deity,1944,GOD
+goddeity,god / deity,3231,DEITY
 gold,gold,1369,GOLD
 gong,gong,2502,GONG
 good,good,1035,GOOD
@@ -406,7 +404,7 @@ guest,guest,1782,GUEST
 gun,gun,1566,GUN
 gunpowder,gunpowder,1798,GUNPOWDER
 hail,hail,609,HAIL
-hairfur,hair / fur,1040,HAIR
+hairfur,hair / fur,2381,FEATHER OR FUR OR HAIR
 hairofhead,hair of head,2648,HAIR (HEAD)
 half,half,816,HALF
 hammernailin,hammer (nail in),502,NAIL (TOOL)
@@ -608,7 +606,7 @@ oldperson,old person,725,OLD PERSON
 one,one,1493,ONE
 oniongreen,onion (green),2366,ONION
 opendoor,open (door),,
-openeye,open (eye),1156,OPEN
+openeye,open (eye),3234,OPEN (EYES)
 openlid,open (lid),1108,UNCOVER
 oppose,oppose,,
 others,others,2422,SOMEONE
@@ -904,7 +902,7 @@ turnip,turnip,3062,TURNIP
 twelve,twelve,1707,TWELVE
 twenty,twenty,1710,TWENTY
 twentyone,twenty-one,1734,TWENTY ONE
-twisttogether,twist together,430,TWIST
+twisttogether,twist together,3236,TWIST (TOGETHER)
 two,two,1498,TWO
 ugly,ugly,1548,UGLY
 unclematernalauntshusband,uncle (maternal aunt's husband,2694,MATERNAL UNCLE (HUSBAND OF ONE'S MATERNAL AUNT)
@@ -976,7 +974,7 @@ wordcharacter,word / character,1599,WORD
 worklabor,work / labor,984,WORK (LABOUR)
 worker,worker,2977,WORKER
 wrap,wrap,1113,WRAP
-wringegwetcloth,wring (e.g. wet cloth),,
+wringegwetcloth,wring (e.g. wet cloth),3224,WRING
 wristwatch,wristwatch,1323,CLOCK
 write,write,1672,WRITE
 wrongmistaken,wrong / mistaken,1390,WRONG
