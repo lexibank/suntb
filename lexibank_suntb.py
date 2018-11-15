@@ -17,15 +17,8 @@ class Dataset(BaseDataset):
     def cmd_install(self, **kw):
 
         with self.cldf as ds:
-            ds.add_sources(*self.raw.read_bib())
-            # add languages
-            language_map = {}
-            for language in self.languages:
-                ds.add_language(
-                    ID=slug(language['NAME']),
-                    Glottocode=language['GLOTTOCODE'],
-                    Name=language['NAME'],
-                )
+            ds.add_sources()
+            ds.add_languages(id_factory=lambda l: slug(l['Name']))
 
             # add concepts, first from the local list, then from the conceptlist
             # (this is necessary because this data is a partial subset of the
@@ -48,13 +41,7 @@ class Dataset(BaseDataset):
                         Concepticon_Gloss=concept['CONCEPTICON_GLOSS'],
                     )
 
-            for gloss, concept in self.conceptlist.concepts.items():
-                ds.add_concept(
-                    ID=slug(concept.english),
-                    Name=concept.english,
-                    Concepticon_ID=concept.concepticon_id,
-                    Concepticon_Gloss=concept.concepticon_gloss,
-                )
+            ds.add_concepts(id_factory=lambda c: slug(c.label))
 
             # add lexemes
             for entry in self.raw.read_tsv('ZMYYC.csv')[1:]:
