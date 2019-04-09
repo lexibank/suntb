@@ -53,7 +53,7 @@ auntwifeofyoungerpaternal,aunt (wife of younger paternal,2171,PATERNAL AUNT (WIF
 autonym,autonym,,
 autumn,autumn,1276,AUTUMN
 ax,ax,677,AXE
-backdirection,back (direction),2910,BACK (DIRECTION)
+backdirection,back (direction),1686,BEHIND
 backofbody,back (of body),1291,BACK
 bad,bad,1292,BAD
 ball,ball,1845,BALL
@@ -358,7 +358,7 @@ fox,fox,1312,FOX
 fragrant,fragrant,376,FRAGRANT
 friend,friend,1325,FRIEND
 frog,frog,503,FROG
-fromnowon,from now on,693,FROM
+fromnowon,from now on,,
 front,front,2194,FRONT (PART)
 frost,frost,2034,FROST
 fruit,fruit,1507,FRUIT
@@ -424,11 +424,11 @@ heavy,heavy,1210,HEAVY
 help,help,1897,HELP
 hen,hen,1514,HEN
 here,here,136,HERE
-hide,hide,602,HIDE (CONCEAL)
-hightall,high / tall,1265,HIGH
+hide,hide,2486,HIDE
+hightall,high / tall,2790,HIGH OR TALL
 highway,highway,,
-hittarget,hit (target),1433,HIT
-hitbeat,hit / beat,1665,BEAT
+hittarget,hit (target),3307,HIT (A TARGET)
+hitbeat,hit / beat,3309,STRIKE (SOMETHING)
 hoe,hoe,284,HOE
 holdbabyinarms,hold (baby) in arms,928,EMBRACE
 holdameeting,hold a meeting,3070,HOLD A MEETING
@@ -646,7 +646,7 @@ plant,plant,653,PLANT (VEGETATION)
 plate,plate,480,PLATE
 play,play,1413,PLAY
 plough,plough,2154,PLOUGH (INSTRUMENT)
-pointed,pointed,,
+pointed,pointed,372,POINTED
 poison,poison,655,POISON
 pole,pole,281,POST
 pond,pond,2035,POND
@@ -689,7 +689,7 @@ return,return,581,COME BACK
 returngoback,return / go back,1444,TURN AROUND
 ricecooked,rice (cooked),1191,COOKED RICE
 riceplant,rice (plant),2026,RICE PLANT
-riceuncooked,rice (uncooked),926,RICE
+riceuncooked,rice (uncooked),3289,UNCOOKED RICE
 rich,rich,712,RICH
 ride,ride,367,RIDE
 right,right,1019,RIGHT
@@ -821,7 +821,7 @@ storytale,story / tale,2060,STORY
 straight,straight,1404,STRAIGHT
 straintea,strain (tea),940,STRAIN
 strength,strength,202,STRENGTH
-strikeiron,strike (iron),353,STRIKE
+strikeiron,strike (iron),288,FORGE
 strikewithopenpalm,strike with open palm,2133,STRIKE OR BEAT
 student,student,753,PUPIL (STUDENT)
 stuffholeup,stuff (hole) up,2006,FILL
@@ -975,7 +975,7 @@ worklabor,work / labor,984,WORK (LABOUR)
 worker,worker,2977,WORKER
 wrap,wrap,1113,WRAP
 wringegwetcloth,wring (e.g. wet cloth),3224,WRING
-wristwatch,wristwatch,1323,CLOCK
+wristwatch,wristwatch,3349,WRISTWATCH
 write,write,1672,WRITE
 wrongmistaken,wrong / mistaken,1390,WRONG
 year,year,1226,YEAR

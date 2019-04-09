@@ -6,10 +6,10 @@ Cite the source dataset as
 
 Available online at https://stedt.berkeley.edu/~stedt-cgi/rootcanal.pl/source/ZMYYC
 
-Conceptlist in Concepticon: [Sun-1991-1004](http://concepticon.clld.org/contributions/Sun-1991-1004)
+Conceptlists in Concepticon:
+- [Sun-1991-1004](http://concepticon.clld.org/contributions/Sun-1991-1004)
 
 ## Statistics
-
 
 [![Build Status](https://travis-ci.org/lexibank/suntb.svg?branch=master)](https://travis-ci.org/lexibank/suntb)
 ![Glottolog: 96%](https://img.shields.io/badge/Glottolog-96%25-green.svg "Glottolog: 96%")
@@ -20,8 +20,4 @@ Conceptlist in Concepticon: [Sun-1991-1004](http://concepticon.clld.org/contribu
 - **Concepts:** 996
 - **Lexemes:** 50,437
 - **Synonymy:** 1.04
-- **Cognacy:** 0 cognates in 0 cognate sets
-- **Invalid lexemes:** 0
-- **Tokens:** 0
-- **Segments:** 0 (0 BIPA errors, 0 CTLS sound class errors, 0 CLTS modified)
-- **Inventory size (avg):** 0.00
+

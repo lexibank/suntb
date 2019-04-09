@@ -2,11 +2,12 @@
     "@context": "http://www.w3.org/ns/csvw",
     "dc:bibliographicCitation": "Sun Hongkai et al. 1991. Zangmianyu yuyin he cihui \u300a\u85cf\u7f05\u8bed\u97f3\u548c\u8bcd\u6c47\u300b[Tibeto-Burman phonology and lexicon]. Beijing: Chinese Social Sciences Press. Accessed via STEDT database",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
-    "dc:format": "http://concepticon.clld.org/contributions/Sun-1991-1004",
+    "dc:format": [
+        "http://concepticon.clld.org/contributions/Sun-1991-1004"
+    ],
     "dc:identifier": "https://stedt.berkeley.edu/~stedt-cgi/rootcanal.pl/source/ZMYYC",
     "dc:source": "sources.bib",
     "dc:title": "Sun ZMYYC [Tibeto-Burman phonology and lexicon]",
-    "dcat:accessURL": "https://github.com/lexibank/suntb",
     "rdf:ID": "suntb",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "dialect": {
@@ -16,8 +17,8 @@
         {
             "dc:title": "environment",
             "properties": {
-                "glottolog_version": "pyglottolog-1.2.1-77-g24ddcfb",
-                "concepticon_version": "pyconcepticon-1.4.0-50-g100c401"
+                "glottolog_version": "v3.4",
+                "concepticon_version": "v2.0"
             }
         }
     ],
@@ -51,7 +52,7 @@
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://linguistics-ontology.org/gold/2010/FormUnit",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#value",
                         "required": true,
                         "name": "Value"
                     },
@@ -151,6 +152,26 @@
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#macroarea",
                         "name": "Macroarea"
+                    },
+                    {
+                        "datatype": {
+                            "base": "decimal",
+                            "minimum": -90,
+                            "maximum": 90
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#latitude",
+                        "required": false,
+                        "name": "Latitude"
+                    },
+                    {
+                        "datatype": {
+                            "base": "decimal",
+                            "minimum": -180,
+                            "maximum": 180
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#longitude",
+                        "required": false,
+                        "name": "Longitude"
                     },
                     {
                         "datatype": "string",
