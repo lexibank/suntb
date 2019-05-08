@@ -1,11 +1,16 @@
 Grapheme	IPA	EXAMPLES	LANGUAGES	FREQUENCY	CODEPOINTS
+~	+				
+~$	NULL				
+|	NULL				
 0	NULL	dy²¹ch., ɣu³³ch.	Yi (Nanjian), Yi (Mile)	3	U+002e
 1	¹	ɑ1lupthɑ¹mɑ³	Burmese (Written)	1	U+0031
 33	³³	o³³ŋgɯ33lu³³	Yi (Dafang)	1	U+0033 U+0033
 44	⁴⁴	ɕi44kv⁴⁴ɕi⁴⁴mi⁴²	Bai (Dali)	1	U+0034 U+0034
 _	+	tə mo tᴇ, a ma	rGyalrong, Tibetan (Written), Bokar Lhoba, Tibetan (Amdo:Bla-brang), Ergong (Danba), Tibetan (Amdo:Zeku), Qiang (Mawo), Tsangla (Motuo), Burmese (Written), Burmese (Spoken Rangoon), Yi (Nanjian), Yi (Mile), Lisu, Naxi (Lijiang), Yi (Xide), Yi (Nanhua), Yi (Mojiang), Nusu (Bijiang), Qiang (Taoping), Pumi (Taoba), Naxi (Yongning), Tibetan (Khams:Dege), Guiqiong, Ersu, Queyu (Yajiang) [Zhaba], Hani (Shuikui), Trung [Dulong], Tshona (Mama), Jinuo, Lahu (Black), Atsi [Zaiwa], Tibetan (Lhasa), Tujia, Maru [Langsu], Yi (Dafang), Pumi (Qinghua), Hani (Dazhai), Namuyi, Xumi, Kaman [Miju], Muya [Minyak]	5217	U+005f
 __	+	paŋ̩¹⁵ - no¹⁵pu¹³	Tibetan (Lhasa)	1	U+005f U+005f
+!	NULL				
 _!!!!!$	NULL	ci⁵⁵me⁵⁵ !!!!!	Idu	1	U+005f U+0021 U+0021 U+0021 U+0021 U+0021 U+0024
+ |	+				
 _|	+	kɛ |pɛ |la, ɦoŋ |boŋ	Bokar Lhoba, rGyalrong, Ergong (Danba), Tibetan (Written), Qiang (Mawo), Namuyi	49	U+005f U+007c
 _|s	+ s	ka nə lo |sɐr, kə |sam ʃtʃᴇ	rGyalrong	2	U+005f U+007c U+0073
 _|w	+ w	gɯ |wmɯ	Ergong (Danba)	1	U+005f U+007c U+0077
@@ -79,7 +84,7 @@ _|w	+ w	gɯ |wmɯ	Ergong (Danba)	1	U+005f U+007c U+0077
 ^ɣʑ	ɣʑ	ɣʑə naŋ, ɣʑa	Tibetan (Amdo:Zeku)	6	U+005e U+0263 U+0291
 ^h	h	ho²¹, htɕək	Tibetan (Amdo:Bla-brang), Burmese (Written), Ersu, Burmese (Spoken Rangoon), Sulung [Puroik], Idu, Yi (Xide), Lisu, Namuyi, Qiang (Mawo), Xumi, Yi (Dafang), Yi (Nanjian), Tibetan (Amdo:Zeku), Nusu (Bijiang), Bokar Lhoba, Tsangla (Motuo), Queyu (Yajiang) [Zhaba], Yi (Nanhua), Yi (Mojiang), Tshona (Mama), Tibetan (Lhasa), Pumi (Taoba), Anong, Tibetan (Khams:Dege), rGyalrong, Tibetan (Written), Muya [Minyak], Naxi (Lijiang), Qiang (Taoping), Naxi (Yongning), Lahu (Black)	832	U+005e U+0068
 ^ḥ	ḥ	ḥgoŋ wa	Tibetan (Amdo:Bla-brang)	1	U+005e U+1e25
-^hs	hs	hse⁵⁵, hso⁵⁵	Burmese (Written), Burmese (Spoken Rangoon), Tibetan (Amdo:Bla-brang)	88	U+005e U+0068 U+0073
+^hs	h s	hse⁵⁵, hso⁵⁵	Burmese (Written), Burmese (Spoken Rangoon), Tibetan (Amdo:Bla-brang)	88	U+005e U+0068 U+0073
 ^hsw	hsʷ	hswɑi³, hswɛ⁵⁵	Burmese (Written), Burmese (Spoken Rangoon)	6	U+005e U+0068 U+0073 U+0077
 ^hw	hʷ	hwe tɕha, hwaŋ wo tɕə	Tibetan (Amdo:Bla-brang), Tibetan (Amdo:Zeku), Burmese (Spoken Rangoon), Burmese (Written), rGyalrong	17	U+005e U+0068 U+0077
 ^hʐ	hʐ	hʐai⁵⁵	Achang (Longchuan)	1	U+005e U+0068 U+0290
@@ -107,7 +112,7 @@ _|w	+ w	gɯ |wmɯ	Ergong (Danba)	1	U+005f U+007c U+0077
 ^khʂ	kʰ ʂ	khʂɯ, khʂɯ khʂɯ	Ergong (Danba), Qiang (Mawo), rGyalrong	7	U+005e U+006b U+0068 U+0282
 ^khw	kʰ w	khwɛ⁵⁵, khwɑi³	Burmese (Written), Burmese (Spoken Rangoon)	10	U+005e U+006b U+0068 U+0077
 ^khʐ	kʰ ʐ	khʐəŋ⁵⁵, khʐaŋ⁵⁵	Achang (Longchuan)	10	U+005e U+006b U+0068 U+0290
-^khʒ	kʰʒ	khʒa⁵⁵, khʒaŋ³¹phʒo³¹	Jingpho	16	U+005e U+006b U+0068 U+0292
+^khʒ	kʰ ʒ	khʒa⁵⁵, khʒaŋ³¹phʒo³¹	Jingpho	16	U+005e U+006b U+0068 U+0292
 ^ks	ks	ksər po	rGyalrong	1	U+005e U+006b U+0073
 ^kʂ	kʂ	kʂi kʂaŋ	Ergong (Danba)	1	U+005e U+006b U+0282
 ^kw	kʷ	kwa, kwɑl⁵⁵tɕi⁵³	Trung [Dulong], Tibetan (Written), Tibetan (Amdo:Zeku), Tibetan (Amdo:Bla-brang), Burmese (Written), Burmese (Spoken Rangoon)	11	U+005e U+006b U+0077
@@ -186,7 +191,7 @@ _|w	+ w	gɯ |wmɯ	Ergong (Danba)	1	U+005f U+007c U+0077
 ^r̊	r̊	r̊ə	Qiang (Mawo)	1	U+005e U+0072 U+030a
 ^r̥	r̥	r̥tsa	Qiang (Mawo)	1	U+005e U+0072 U+0325
 ^rɕ	rɕ	rɕək ka	Tibetan (Amdo:Zeku)	1	U+005e U+0072 U+0255
-^rsh	rsʰ	rshɿ²¹ȵi⁵⁵	Yi (Xide)	1	U+005e U+0072 U+0073 U+0068
+^rsh	r sʰ	rshɿ²¹ȵi⁵⁵	Yi (Xide)	1	U+005e U+0072 U+0073 U+0068
 ^rw	rʷ	rwɑ², rwa tɕo	Burmese (Written), Tibetan (Written)	4	U+005e U+0072 U+0077
 ^ɹ	ɹ	ɹu⁵⁵, ɹɔŋ⁵³	Trung [Dulong], Nusu (Bijiang), Idu, Darang [Taraon], Qiang (Mawo), Kaman [Miju], Anong, Sulung [Puroik], Xumi	139	U+005e U+0279
 ^ʁ	ʁ	ʁo³⁵, ʁueʴ	Qiang (Mawo), Muya [Minyak], Namuyi, Qiang (Taoping), Ergong (Danba), Xumi	190	U+005e U+0281
@@ -226,9 +231,9 @@ _|w	+ w	gɯ |wmɯ	Ergong (Danba)	1	U+005f U+007c U+0077
 ^û	û	û³le³, û¹	Burmese (Written)	7	U+005e U+00fb
 ^ũ	ũ	ũ⁵⁵, ũ⁵⁵rɛ³³phɐ³³	Guiqiong, Xumi	3	U+005e U+0169
 ^u̱	u̱	u̱³¹, u̱³¹la³¹	Jingpho, Hani (Dazhai), Maru [Langsu]	12	U+005e U+0075 U+0331
-^ŭʴ	ŭʴ	ŭʴ⁵⁵tɔŋ⁵³, ŭʴ⁵⁵	Trung [Dulong]	5	U+005e U+016d U+02b4
+^ŭʴ	ŭ˞	ŭʴ⁵⁵tɔŋ⁵³, ŭʴ⁵⁵	Trung [Dulong]	5	U+005e U+016d U+02b4
 ^ᴜ	ᴜ	ᴜɑ⁴⁴	Bai (Dali)	1	U+005e U+1d1c
-^ɥɕ	ɥɕ	ɥɕe⁵⁵nɑ⁵⁵ȵtɕl³⁵	Kaman [Miju]	1	U+005e U+0265 U+0255
+^ɥɕ	ɥ ɕ	ɥɕe⁵⁵nɑ⁵⁵ȵtɕl³⁵	Kaman [Miju]	1	U+005e U+0265 U+0255
 ^ɯ	ɯ	ɯ⁵⁵, ɯ ɕɯŋ	Bokar Lhoba, Hani (Dazhai), Yi (Dafang), Bai (Jianchuan), Tujia, Bai (Dali), Yi (Nanhua), Yi (Mojiang), Tibetan (Amdo:Bla-brang), Jinuo	35	U+005e U+026f
 ^ɯ̃	ɯ̃	ɯ̃³³, ɯ̃⁵⁵xu³³	Bai (Bijiang), Bai (Jianchuan)	3	U+005e U+026f U+0303
 ^ɯ̱	ɯ̱	ɯ̱³³, ɯ̱⁵⁵tᴀ̱⁵⁵	Yi (Mile), Yi (Nanhua)	2	U+005e U+026f U+0331
@@ -249,13 +254,13 @@ _|w	+ w	gɯ |wmɯ	Ergong (Danba)	1	U+005f U+007c U+0077
 ^x	x	xo³³, xo⁵⁵	Darang [Taraon], Hani (Shuikui), Pumi (Taoba), Hani (Dazhai), Pumi (Qinghua), Lahu (Black), Yi (Mile), Tujia, Naxi (Lijiang), Kaman [Miju], Naxi (Yongning), Bai (Dali), Bai (Jianchuan), Yi (Mojiang), Bai (Bijiang), Achang (Longchuan), Nusu (Bijiang), Atsi [Zaiwa], Queyu (Yajiang) [Zhaba], Guiqiong, Ersu, Yi (Nanhua), Yi (Nanjian), Yi (Dafang), Lisu, Maru [Langsu], Hani (Caiyuan), Namuyi, Jinuo, Anong, Tibetan (Khams:Dege), Trung [Dulong], Qiang (Mawo), Muya [Minyak], Yi (Xide), Ergong (Danba), Xumi, Tibetan (Amdo:Zeku), Qiang (Taoping), Tibetan (Amdo:Bla-brang)	1287	U+005e U+0078
 ^xh	xʰ	xha, xhar	Tibetan (Amdo:Zeku), Tibetan (Amdo:Bla-brang), Tibetan (Khams:Dege)	54	U+005e U+0078 U+0068
 ^xw	xʷ	xwɑ⁵⁵sen⁵⁵	Trung [Dulong]	1	U+005e U+0078 U+0077
-^xʐ	xʐ	xʐoʔ⁵⁵tɕhe⁵⁵, xʐua⁵⁵	Achang (Longchuan)	4	U+005e U+0078 U+0290
+^xʐ	x ʐ	xʐoʔ⁵⁵tɕhe⁵⁵, xʐua⁵⁵	Achang (Longchuan)	4	U+005e U+0078 U+0290
 ^y	y	yi³⁵, yi⁵⁵	Qiang (Taoping), Nusu (Bijiang), Ersu, Guiqiong, Yi (Nanjian), Qiang (Mawo), Pumi (Qinghua), Namuyi, Ergong (Danba), Pumi (Taoba)	22	U+005e U+0079
 ^z	z	zo³³, zi⁵⁵	Lahu (Black), Tujia, Qiang (Mawo), Ergong (Danba), Tsangla (Motuo), Ersu, Tibetan (Written), Hani (Dazhai), Xumi, Nusu (Bijiang), Namuyi, Guiqiong, Yi (Xide), Lisu, rGyalrong, Naxi (Lijiang), Yi (Nanhua), Hani (Shuikui), Yi (Mojiang), Yi (Nanjian), Tshona (Mama), Queyu (Yajiang) [Zhaba], Qiang (Taoping), Jinuo, Muya [Minyak], Yi (Mile), Tibetan (Khams:Dege), Pumi (Taoba), Naxi (Yongning), Yi (Dafang), Anong, Bai (Dali), Sulung [Puroik], Burmese (Spoken Rangoon), Bai (Bijiang), Burmese (Written), Trung [Dulong], Pumi (Qinghua), Hani (Caiyuan)	637	U+005e U+007a
 ^zh	zʰ	zhe³, zhe³khjo²	Burmese (Written)	4	U+005e U+007a U+0068
-^zʐ	zʐ	zʐɯ	Ergong (Danba)	1	U+005e U+007a U+0290
+^zʐ	z ʐ	zʐɯ	Ergong (Danba)	1	U+005e U+007a U+0290
 ^ʐ	ʐ	ʐɿ⁵⁵, ʐɿ³³	Ergong (Danba), Naxi (Yongning), Muya [Minyak], Pumi (Qinghua), Qiang (Taoping), Namuyi, Achang (Longchuan), Guiqiong, Queyu (Yajiang) [Zhaba], Naxi (Lijiang), Ersu, Pumi (Taoba), Yi (Nanjian), Yi (Mile), Qiang (Mawo), Nusu (Bijiang), Bai (Bijiang), Yi (Xide), Xumi, Yi (Nanhua), Anong	371	U+005e U+0290
-^ʐɕ	ʐɕ	ʐɕɯ	Ergong (Danba)	1	U+005e U+0290 U+0255
+^ʐɕ	ʐ ɕ	ʐɕɯ	Ergong (Danba)	1	U+005e U+0290 U+0255
 ^ʑ	ʑ	ʑi³³, ʑi̱²¹	Yi (Xide), Yi (Nanhua), Yi (Dafang), Pumi (Taoba), Naxi (Yongning), Yi (Mojiang), Yi (Mile), Naxi (Lijiang), Yi (Nanjian), Achang (Longchuan), Queyu (Yajiang) [Zhaba], Ergong (Danba), Tibetan (Written), Tshona (Mama), Xumi, Tibetan (Khams:Dege), Muya [Minyak], Qiang (Taoping), Guiqiong, Nusu (Bijiang), Ersu, Qiang (Mawo), Sulung [Puroik], Tsangla (Motuo), Bokar Lhoba	423	U+005e U+0291
 ^ʑw	ʑʷ	ʑwɛ, ʑwa mo	Tibetan (Written), Ergong (Danba)	2	U+005e U+0291 U+0077
 ^ʒ	ʒ	ʒɿ³³, ʒi³¹	Pumi (Qinghua), Jingpho, Lisu, Hani (Shuikui), Xumi, rGyalrong, Atsi [Zaiwa], Qiang (Taoping), Ersu, Guiqiong, Maru [Langsu]	105	U+005e U+0292
@@ -297,7 +302,7 @@ $	NULL
 ³$	³	khje³, û³le³	Burmese (Written), Yi (Xide), Yi (Nanhua), Hani (Shuikui), Yi (Mile), Jinuo	345	U+00b3 U+0024
 3$	³	ne¹khɑŋ3	Burmese (Written)	1	U+0033 U+0024
 ³¹	³¹	mi³¹tsɔ³¹, kɑ³¹sɑ⁵³	Anong, Darang [Taraon], Jingpho, Kaman [Miju], Trung [Dulong], Hani (Shuikui), Hani (Dazhai), Hani (Caiyuan), Maru [Langsu], Achang (Longchuan), Idu, Nusu (Bijiang), Qiang (Taoping), Lisu, Naxi (Yongning), Lahu (Black), Naxi (Lijiang), Bai (Dali), Jinuo, Bai (Jianchuan), Tibetan (Khams:Dege), Tshona (Mama), Bai (Bijiang), Tujia, Yi (Nanjian), Pumi (Qinghua), Yi (Xide), Yi (Mojiang)	5757	U+00b3 U+00b9
-³¹|	³¹+	mă³¹|juʔ³¹, gɯ³¹|ɹɑu⁵⁵	Jingpho, Trung [Dulong], Darang [Taraon], Anong, Idu, Hani (Dazhai), Kaman [Miju], Maru [Langsu], Nusu (Bijiang), Qiang (Taoping), Hani (Shuikui), Achang (Longchuan), Hani (Caiyuan)	89	U+00b3 U+00b9 U+007c
+³¹|	³¹ +	mă³¹|juʔ³¹, gɯ³¹|ɹɑu⁵⁵	Jingpho, Trung [Dulong], Darang [Taraon], Anong, Idu, Hani (Dazhai), Kaman [Miju], Maru [Langsu], Nusu (Bijiang), Qiang (Taoping), Hani (Shuikui), Achang (Longchuan), Hani (Caiyuan)	89	U+00b3 U+00b9 U+007c
 ³¹|$	³¹	dɯ³¹gɯ³¹|, tᴀ³¹|	Jingpho, Yi (Nanhua), Anong	4	U+00b3 U+00b9 U+007c U+0024
 ³¹$	³¹	tɕhi³¹, tshɿ³¹	Maru [Langsu], Hani (Shuikui), Hani (Dazhai), Jingpho, Hani (Caiyuan), Naxi (Lijiang), Achang (Longchuan), Anong, Nusu (Bijiang), Lisu, Lahu (Black), Naxi (Yongning), Bai (Dali), Jinuo, Qiang (Taoping), Bai (Jianchuan), Tibetan (Khams:Dege), Darang [Taraon], Trung [Dulong], Idu, Tshona (Mama), Kaman [Miju], Bai (Bijiang), Yi (Xide), Yi (Nanjian), Queyu (Yajiang) [Zhaba], Tujia, Yi (Dafang), Yi (Mile), Tibetan (Amdo:Zeku)	4627	U+00b3 U+00b9 U+0024
 ³¹ᵊ	³¹ ə	ɕɑ³¹ᵊɹɑ³¹uɑ⁵⁵tʂhɿ³¹, gi⁵⁵xɑ³¹ᵊɹɑɯ⁵⁵	Darang [Taraon], Anong	2	U+00b3 U+00b9 U+1d4a
@@ -357,15 +362,15 @@ aː$	aː	taː, kaː	Bokar Lhoba, Qiang (Mawo)	36	U+0061 U+02d0 U+0024
 aːʴ$	aːʴ	staːʴ, mupu tshaːʴ	Qiang (Mawo)	2	U+0061 U+02d0 U+02b4 U+0024
 a$	a	kha, a ma	Tibetan (Amdo:Bla-brang), Tibetan (Amdo:Zeku), Tibetan (Written), Tsangla (Motuo), Ergong (Danba), rGyalrong, Qiang (Mawo), Bokar Lhoba, Tibetan (Lhasa), Jingpho, Atsi [Zaiwa], Tibetan (Khams:Dege)	1206	U+0061 U+0024
 ã$	ã	tsã⁵⁵dzã	Pumi (Taoba)	1	U+00e3 U+0024
-a³³mɛ³³~ko³³	a ³³ m ɛ ³³ + k o ³³	a³³mɛ³³~ko³³	Jinuo	1	U+0061 U+00b3 U+00b3 U+006d U+025b U+00b3 U+00b3 U+007e U+006b U+006f U+00b3 U+00b3
+^a³³mɛ³³~ko³³$	a ³³ m ɛ ³³ + k o ³³	a³³mɛ³³~ko³³	Jinuo	1	U+0061 U+00b3 U+00b3 U+006d U+025b U+00b3 U+00b3 U+007e U+006b U+006f U+00b3 U+00b3
 æ	æ	læ³³, sæ³³	Sulung [Puroik], Hani (Shuikui)	37	U+00e6
-æʴ	æʴ	pɹæʴ³³tsət³³, a³³væʴ⁵³	Sulung [Puroik]	3	U+00e6 U+02b4
+æʴ	æ˞	pɹæʴ³³tsət³³, a³³væʴ⁵³	Sulung [Puroik]	3	U+00e6 U+02b4
 aʴ	a˞	maʴ⁵⁵, maʴ⁵⁵maʴ⁵⁵	Ersu, Ergong (Danba), Qiang (Mawo), Sulung [Puroik]	92	U+0061 U+02b4
-aʴ$	aʴ	guaʴ, khuaʴ	Qiang (Mawo), Ergong (Danba)	27	U+0061 U+02b4 U+0024
+aʴ$	a˞	guaʴ, khuaʴ	Qiang (Mawo), Ergong (Danba)	27	U+0061 U+02b4 U+0024
 ᴀ	a	ɣᴀ²¹, khᴀ²¹	Tshona (Mama), Lahu (Black), Yi (Nanhua), Yi (Mile), Yi (Mojiang)	1303	U+1d00
 ᴀ̃	ã	tsᴀ̃³³, pᴀ̃³³	Yi (Mojiang), Yi (Nanhua), Yi (Mile)	34	U+1d00 U+0303
 ᴀ̱	a̱	tʂᴀ̱²¹, tsᴀ̱²¹	Yi (Nanhua), Yi (Mile), Yi (Mojiang)	191	U+1d00 U+0331
-ᴀ̱̃	ᴀ̱̃	ʑĩ̱²¹xᴀ̱̃²¹	Yi (Nanhua)	1	U+1d00 U+0331 U+0303
+ᴀ̱̃	ã̠	ʑĩ̱²¹xᴀ̱̃²¹	Yi (Nanhua)	1	U+1d00 U+0331 U+0303
 ᴀː	aː	mᴀː⁵⁵ren⁵⁵, rᴀː¹³	Tshona (Mama)	24	U+1d00 U+02d0
 ɐ	ɐ	kɐ lɐt, qhɐ⁵⁵	rGyalrong, Muya [Minyak], Xumi, Jinuo, Pumi (Taoba), Queyu (Yajiang) [Zhaba], Pumi (Qinghua), Tibetan (Khams:Dege), Ergong (Danba)	907	U+0250
 ɐ̃	ɐ̃	mɐ̃³⁵ɬio⁵³	Pumi (Taoba)	1	U+0250 U+0303
@@ -385,13 +390,14 @@ aʴ$	aʴ	guaʴ, khuaʴ	Qiang (Mawo), Ergong (Danba)	27	U+0061 U+02b4 U+0024
 ɑ$	ɑ	dʐɑ, stɑ	Qiang (Mawo), Trung [Dulong], Tibetan (Amdo:Zeku), Idu, Kaman [Miju], Nusu (Bijiang)	143	U+0251 U+0024
 ɑɑ	ɑː	tɑ¹rɑɑ¹hnɑŋ¹tɑs, le²jɑɑȵ̂²pjaṁ²	Burmese (Written)	2	U+0251 U+0251
 ɑṁ	ã				
-ɑʴ	ɑʴ	khɑʴ⁵³, ʂɑʴ⁵³	Nusu (Bijiang), Qiang (Mawo), Trung [Dulong]	104	U+0251 U+02b4
-ɑ̆ʴ	ɑ̆ʴ	mɑ̆ʴ⁵⁵kɯ⁵⁵, wɑ̆ʴ⁵³zɔŋ⁵³	Trung [Dulong]	13	U+0251 U+0306 U+02b4
-ɑ̃ʴ	ɑ̃ʴ	kuɑ̃ʴ⁵³ ɑ̃ʴ³¹, hɑ̃ʴ³⁵lɔ⁵⁵	Nusu (Bijiang)	7	U+0251 U+0303 U+02b4
-ɑ̄ʴ	ɑ̄ʴ	ɹɑ̱⁵³xɑ̄ʴ⁵⁵ɹɑ̱⁵³khue³⁵	Nusu (Bijiang)	1	U+0251 U+0304 U+02b4
-ɑ̱ʴ	ɑ̱ʴ	ʔmɑ̱ʴ³⁵ʔmɑ̱ʴ⁵³, m̥iɯ³⁵kɑ̱ʴ⁵³	Nusu (Bijiang)	6	U+0251 U+0331 U+02b4
-ɑ̱̃ʴ	ɑ̱̃ʴ	ʔɑ̱̃ʴ⁵³tɑ⁵⁵ɑ³¹, ʔɑ̱̃ʴ⁵³	Nusu (Bijiang)	2	U+0251 U+0331 U+0303 U+02b4
-ɑʴ$	ɑʴ	tsə sɑʴ, səqɑʴ	Qiang (Mawo)	11	U+0251 U+02b4 U+0024
+ɑṁ$	ã				
+ɑʴ	ɑ˞	khɑʴ⁵³, ʂɑʴ⁵³	Nusu (Bijiang), Qiang (Mawo), Trung [Dulong]	104	U+0251 U+02b4
+ɑ̆ʴ	ɑ̆˞	mɑ̆ʴ⁵⁵kɯ⁵⁵, wɑ̆ʴ⁵³zɔŋ⁵³	Trung [Dulong]	13	U+0251 U+0306 U+02b4
+ɑ̃ʴ	ɑ̃˞	kuɑ̃ʴ⁵³ ɑ̃ʴ³¹, hɑ̃ʴ³⁵lɔ⁵⁵	Nusu (Bijiang)	7	U+0251 U+0303 U+02b4
+ɑ̄ʴ	ɑ̄˞	ɹɑ̱⁵³xɑ̄ʴ⁵⁵ɹɑ̱⁵³khue³⁵	Nusu (Bijiang)	1	U+0251 U+0304 U+02b4
+ɑ̱ʴ	ɑ̱˞	ʔmɑ̱ʴ³⁵ʔmɑ̱ʴ⁵³, m̥iɯ³⁵kɑ̱ʴ⁵³	Nusu (Bijiang)	6	U+0251 U+0331 U+02b4
+ɑ̱̃ʴ	ɑ̱̃˞	ʔɑ̱̃ʴ⁵³tɑ⁵⁵ɑ³¹, ʔɑ̱̃ʴ⁵³	Nusu (Bijiang)	2	U+0251 U+0331 U+0303 U+02b4
+ɑʴ$	ɑ˞	tsə sɑʴ, səqɑʴ	Qiang (Mawo)	11	U+0251 U+02b4 U+0024
 ɒ	ɒ	dɒ²¹, khɒ³³	Yi (Mojiang), Yi (Dafang), Idu, Yi (Nanjian), Yi (Xide)	160	U+0252
 ɒ̱	ɒ̱	ɕɒ̱²¹me̱²¹, lɒ̱²¹	Yi (Mojiang)	2	U+0252 U+0331
 b	b	mbi³³, mbe³³	Tibetan (Written), Idu, Tibetan (Khams:Dege), Ersu, Muya [Minyak], Darang [Taraon], Naxi (Lijiang), Hani (Dazhai), Yi (Xide), Sulung [Puroik], rGyalrong, Xumi, Tibetan (Amdo:Zeku), Nusu (Bijiang), Pumi (Taoba), Yi (Mile), Namuyi, Bokar Lhoba, Ergong (Danba), Trung [Dulong], Anong, Tsangla (Motuo), Yi (Nanhua), Kaman [Miju], Yi (Mojiang), Lisu, Yi (Dafang), Naxi (Yongning), Pumi (Qinghua), Qiang (Mawo), Yi (Nanjian), Qiang (Taoping), Guiqiong, Lahu (Black), Bai (Bijiang), Tibetan (Amdo:Bla-brang), Burmese (Spoken Rangoon), Queyu (Yajiang) [Zhaba], Tshona (Mama), Burmese (Written)	1518	U+0062
@@ -400,7 +406,7 @@ bɕ	bɕ	btɕu bɕi, zla bɕol	Tibetan (Written)	2	U+0062 U+0255
 bh	bʰ	mɑ¹ bhu³, bhɔŋ³bhi²	Burmese (Written)	8	U+0062 U+0068
 bhw	bʰ w	ɑ¹bhwɑ³	Burmese (Written)	1	U+0062 U+0068 U+0077
 bs	bs	thibs po, ʑabs bro brgjab	Tibetan (Written)	3	U+0062 U+0073
-bɯ²¹ ni³³~	b ɯ ²¹ + n i ³³	bɯ²¹ ni³³~	Yi (Mojiang)	1	U+0062 U+026f U+00b2 U+00b9 U+0020 U+006e U+0069 U+00b3 U+00b3 U+007e
+^bɯ²¹ ni³³~$	b ɯ ²¹ + n i ³³	bɯ²¹ ni³³~	Yi (Mojiang)	1	U+0062 U+026f U+00b2 U+00b9 U+0020 U+006e U+0069 U+00b3 U+00b3 U+007e
 bw	bʷ	ɑ bwɑ⁵⁵	Burmese (Spoken Rangoon)	1	U+0062 U+0077
 bʐ	bʐ	mbʐu, mbʐe	Qiang (Taoping), Pumi (Taoba), Ergong (Danba), Ersu, Pumi (Qinghua)	25	U+0062 U+0290
 bʑ	bʑ	gru bʑi, lo tɕhaŋ bʑɯ	Tibetan (Written), Ergong (Danba)	3	U+0062 U+0291
@@ -490,7 +496,8 @@ gʑ	gʑ	rdog rgjag gʑus, dmaŋs gʑas	Tibetan (Written), Qiang (Mawo)	5	U+0067 
 ɣs	ɣs	ɣdə ɣso, tʂoŋ ɣsep	Tibetan (Amdo:Zeku)	4	U+0263 U+0073
 ɣʑ	ɣʑ	rno ɣʑe, mbar ɣʑən	Tibetan (Amdo:Zeku), Qiang (Mawo)	3	U+0263 U+0291
 h	h	ɑ⁵⁵he⁵⁵, tɑ³¹hɹo⁵³hɹoŋ⁵⁵	Idu, Burmese (Written), Sulung [Puroik], Lisu, Xumi, Ersu, Yi (Xide), Yi (Dafang), Namuyi, Tibetan (Amdo:Bla-brang), Burmese (Spoken Rangoon), Yi (Nanjian), rGyalrong, Queyu (Yajiang) [Zhaba], Yi (Nanhua), Qiang (Mawo), Anong, Bai (Jianchuan), Kaman [Miju], Muya [Minyak], Nusu (Bijiang), Tshona (Mama), Tsangla (Motuo), Yi (Mojiang), Tibetan (Amdo:Zeku), Tibetan (Lhasa), Hani (Dazhai), Guiqiong, Bokar Lhoba, Tibetan (Written), Lahu (Black)	361	U+0068
-hs	hs	ɑ¹ hsuṁ³, lɑ¹hsɑn³tɑ¹rɑk ne¹	Burmese (Written), Burmese (Spoken Rangoon)	54	U+0068 U+0073
+ hs	+ h s				
+hs	h s	ɑ¹ hsuṁ³, lɑ¹hsɑn³tɑ¹rɑk ne¹	Burmese (Written), Burmese (Spoken Rangoon)	54	U+0068 U+0073
 hsw	hsʷ	meʔ⁴⁴hswe²², mit hswe³	Burmese (Written), Burmese (Spoken Rangoon)	2	U+0068 U+0073 U+0077
 hw	hʷ	kha hwə, lan hwa	Tibetan (Amdo:Bla-brang), Tibetan (Amdo:Zeku), rGyalrong	4	U+0068 U+0077
 hʑ	hʑ	hda hʑə	Tibetan (Amdo:Bla-brang)	1	U+0068 U+0291
@@ -529,7 +536,7 @@ k$	k	htɕək, lok	Tibetan (Amdo:Bla-brang), Tibetan (Amdo:Zeku), rGyalrong, Burm
 kh	kʰ	a khə, ʔa⁵³khu⁵³	Tujia, Jinuo, Atsi [Zaiwa], Tibetan (Written), Burmese (Written), Maru [Langsu], Anong, Nusu (Bijiang), Hani (Caiyuan), Jingpho, rGyalrong, Ersu, Naxi (Yongning), Queyu (Yajiang) [Zhaba], Tibetan (Amdo:Zeku), Lisu, Burmese (Spoken Rangoon), Tibetan (Amdo:Bla-brang), Naxi (Lijiang), Kaman [Miju], Bai (Dali), Ergong (Danba), Darang [Taraon], Muya [Minyak], Yi (Nanjian), Hani (Dazhai), Idu, Yi (Mojiang), Guiqiong, Tsangla (Motuo), Tibetan (Khams:Dege), Tibetan (Lhasa), Yi (Nanhua), Hani (Shuikui), Pumi (Qinghua), Yi (Xide), Lahu (Black), Pumi (Taoba), Tshona (Mama), Yi (Dafang), Yi (Mile), Namuyi, Bai (Bijiang), Bai (Jianchuan), Xumi, Qiang (Mawo), Qiang (Taoping), Achang (Longchuan)	1174	U+006b U+0068
 kʰ	kʰ	nɑ⁵⁵kʰu̯³³, kʰi³¹kʰu³³	Jinuo, Lisu, Yi (Nanjian)	5	U+006b U+02b0
 khɛ²¹sɒ³³~	kʰ ɛ ²¹ s ɒ ³³	khɛ²¹sɒ³³~	Yi (Mojiang)	1	U+006b U+0068 U+025b U+00b2 U+00b9 U+0073 U+0252 U+00b3 U+00b3 U+007e
-khʴ	kʰʴ	phɹɑ̃⁵⁵ɹu³¹khʴue³⁵ɑ⁵⁵	Nusu (Bijiang)	1	U+006b U+0068 U+02b4
+khʴ	kʰ ɹ	phɹɑ̃⁵⁵ɹu³¹khʴue³⁵ɑ⁵⁵	Nusu (Bijiang)	1	U+006b U+0068 U+02b4
 khʂ	kʰ ʂ	ŋkhʂɛ, khʂɯ khʂɯ	Ergong (Danba)	3	U+006b U+0068 U+0282
 khʃ	kʰ ʃ	kə wak khʃi, ka khʃut	rGyalrong	5	U+006b U+0068 U+0283
 khu̱²¹dɒ²¹~	kʰ u̱ ²¹ d ɒ ²¹	khu̱²¹dɒ²¹~	Yi (Mojiang)	1	U+006b U+0068 U+0075 U+0331 U+00b2 U+00b9 U+0064 U+0252 U+00b2 U+00b9 U+007e
@@ -542,8 +549,8 @@ kʃ	kʃ	kə kʃut	rGyalrong	1	U+006b U+0283
 ku̪³³~⁵⁵	k u̪ ³³/⁵⁵	ku̪³³~⁵⁵	Yi (Nanjian)	1	U+006b U+0075 U+032a U+00b3 U+00b3 U+007e U+2075 U+2075
 ku⁵⁵~⁴⁴	k u ⁵⁵/⁴⁴	ku⁵⁵~⁴⁴	Lisu	1	U+006b U+0075 U+2075 U+2075 U+007e U+2074 U+2074
 kw	kʷ	rok kwa, hdak kwo	Tibetan (Amdo:Bla-brang), Tibetan (Amdo:Zeku), Burmese (Written), Burmese (Spoken Rangoon), Trung [Dulong]	45	U+006b U+0077
-kʐ	kʐ	ʂək⁵⁵kʐaŋ⁵⁵, mă³¹kʐaŋ³¹	Achang (Longchuan)	4	U+006b U+0290
-kʒ	kʒ	mă³¹kʒi³³, ʃă³³kʒu̱i³³	Jingpho	12	U+006b U+0292
+kʐ	k ʐ	ʂək⁵⁵kʐaŋ⁵⁵, mă³¹kʐaŋ³¹	Achang (Longchuan)	4	U+006b U+0290
+kʒ	k ʒ	mă³¹kʒi³³, ʃă³³kʒu̱i³³	Jingpho	12	U+006b U+0292
 l	l	blɑ⁵³, be⁵⁵lɑ⁵⁵	Kaman [Miju], Trung [Dulong], Darang [Taraon], Idu, Tibetan (Written), rGyalrong, Tujia, Anong, Tibetan (Amdo:Zeku), Lisu, Tshona (Mama), Jingpho, Ergong (Danba), Qiang (Mawo), Bokar Lhoba, Tibetan (Amdo:Bla-brang), Burmese (Written), Guiqiong, Sulung [Puroik], Yi (Nanhua), Tsangla (Motuo), Hani (Caiyuan), Yi (Mile), Naxi (Lijiang), Nusu (Bijiang), Yi (Nanjian), Queyu (Yajiang) [Zhaba], Lahu (Black), Hani (Dazhai), Xumi, Namuyi, Burmese (Spoken Rangoon), Qiang (Taoping), Muya [Minyak], Naxi (Yongning), Hani (Shuikui), Pumi (Taoba), Tibetan (Khams:Dege), Yi (Mojiang), Tibetan (Lhasa), Yi (Dafang), Yi (Xide), Bai (Bijiang), Achang (Longchuan), Ersu, Atsi [Zaiwa], Pumi (Qinghua), Jinuo, Bai (Jianchuan), Maru [Langsu], Bai (Dali)	2965	U+006c
 l̩	l̩	dʑu³³l̩u³³, a⁴⁴l̩ɿ³³	Yi (Xide), Yi (Nanjian)	7	U+006c U+0329
 ḷ	ḷ	sɿ̄³³tsɿ⁵⁵ḷɿ⁵⁵ku̱³³, tɕhi⁵⁵ḷɿ³³	Yi (Xide), Yi (Nanjian)	7	U+1e37
@@ -559,12 +566,10 @@ lw	lʷ	waṁ²pu¹lwe², tθɑ⁵³peʔ⁴⁴lwɛ²²	Burmese (Written), Burmese
 ɮ	ɮ	ɦɔ ɮi	Ergong (Danba)	1	U+026e
 m	m	a ma, tsha mo	Kaman [Miju], Anong, Atsi [Zaiwa], rGyalrong, Trung [Dulong], Jingpho, Tshona (Mama), Tibetan (Amdo:Zeku), Darang [Taraon], Tibetan (Lhasa), Pumi (Taoba), Tibetan (Amdo:Bla-brang), Tibetan (Written), Achang (Longchuan), Burmese (Written), Maru [Langsu], Idu, Bokar Lhoba, Yi (Mile), Tsangla (Motuo), Muya [Minyak], Yi (Nanhua), Lisu, Ergong (Danba), Naxi (Yongning), Tibetan (Khams:Dege), Jinuo, Hani (Caiyuan), Lahu (Black), Naxi (Lijiang), Hani (Shuikui), Yi (Mojiang), Ersu, Xumi, Namuyi, Yi (Xide), Hani (Dazhai), Burmese (Spoken Rangoon), Sulung [Puroik], Guiqiong, Queyu (Yajiang) [Zhaba], Qiang (Taoping), Yi (Dafang), Qiang (Mawo), Bai (Dali), Nusu (Bijiang), Yi (Nanjian), Bai (Bijiang), Tujia, Bai (Jianchuan), Pumi (Qinghua)	4431	U+006d
 m̆	m̆	gm̆ʔ⁵⁵, xɹm̆ʔ⁵⁵	Trung [Dulong]	2	U+006d U+0306
-ṁ	ṁ	puṁ², nɑṁ²rɑṁ²	Burmese (Written)	72	U+1e41
 m̩	m̩	ɑ³¹m̩⁵⁵, iɑ⁵⁵m̩³¹mɔ⁵³	Yi (Xide), Yi (Nanjian), Nusu (Bijiang), Yi (Dafang), Darang [Taraon], Anong, Ersu, Idu	65	U+006d U+0329
 m̥	m̥	a³³m̥u³³, xə³⁵m̥ə³⁵	Yi (Xide), Pumi (Qinghua), Burmese (Spoken Rangoon), Tibetan (Amdo:Zeku), Pumi (Taoba), Nusu (Bijiang), Queyu (Yajiang) [Zhaba], Xumi, Tibetan (Khams:Dege), Darang [Taraon], Jinuo	48	U+006d U+0325
 m|$	m	kə sam|	rGyalrong	1	U+006d U+007c U+0024
 m$	m	lam, gam	Tsangla (Motuo), Bokar Lhoba, rGyalrong, Tibetan (Amdo:Bla-brang), Tibetan (Amdo:Zeku), Tibetan (Written), Qiang (Mawo), Ergong (Danba), Burmese (Written)	288	U+006d U+0024
-ṁ$	ṁ	hruṁ, hluṁ	Burmese (Written)	2	U+1e41 U+0024
 mɕ	mɕ	namɕe, brumɕa	Tsangla (Motuo)	2	U+006d U+0255
 mɛ³³khɯ³³~dɒ²¹	m ɛ ³³ kʰ ɯ ³³ + d ɒ ²¹	mɛ³³khɯ³³~dɒ²¹	Yi (Mojiang)	1	U+006d U+025b U+00b3 U+00b3 U+006b U+0068 U+026f U+00b3 U+00b3 U+007e U+0064 U+0252 U+00b2 U+00b9
 mm	mː	ɕa³³mm³¹tsɔ³³mɯ³¹tsha³⁵, tɕamma	Jinuo, Tsangla (Motuo)	2	U+006d U+006d
@@ -628,7 +633,8 @@ o$	o	ko, ȵo	Tibetan (Written), Tibetan (Amdo:Bla-brang), rGyalrong, Tibetan (Am
 ø$	ø	ȵø, ltø	Ergong (Danba), Tsangla (Motuo)	4	U+00f8 U+0024
 œ	œ	te⁵⁵kœ³³lɑ³³kɐ³³	Jinuo	1	U+0153
 oṁ	õ				
-oʴ	oʴ	ʁoʴ³⁵phʂɛ³³, boʴ⁵³	Sulung [Puroik], Namuyi	4	U+006f U+02b4
+oṁ$	õ				
+oʴ	o˞	ʁoʴ³⁵phʂɛ³³, boʴ⁵³	Sulung [Puroik], Namuyi	4	U+006f U+02b4
 ɔ	ɔ	kɔ³³, nɔ³¹	Hani (Shuikui), Lahu (Black), Jinuo, Maru [Langsu], Hani (Dazhai), Achang (Longchuan), Hani (Caiyuan), Yi (Dafang), Burmese (Written), Tshona (Mama), Trung [Dulong], Nusu (Bijiang), Guiqiong, Yi (Xide), Burmese (Spoken Rangoon), Sulung [Puroik], Anong, Ergong (Danba), Muya [Minyak], Namuyi, Tibetan (Lhasa), Xumi, Naxi (Yongning), Tibetan (Amdo:Zeku), Idu, Pumi (Taoba)	2498	U+0254
 ɔ̆	ɔ̆	ʃɔ̆³⁵muk⁵⁵, lɔ̆ʔ⁵⁵	Trung [Dulong], Maru [Langsu]	56	U+0254 U+0306
 ɔ̂	ɔ̂	mre²ɔ̂³zɑ²	Burmese (Written)	1	U+0254 U+0302
@@ -637,13 +643,13 @@ oʴ	oʴ	ʁoʴ³⁵phʂɛ³³, boʴ⁵³	Sulung [Puroik], Namuyi	4	U+006f U+02b4
 ɔ̱̃	ɔ̱̃	tɔ̱̃⁵⁵khau⁵⁵, lɔ̱̃⁵⁵	Maru [Langsu]	15	U+0254 U+0331 U+0303
 ɔː	ɔː	ʑɔː¹³mo⁵³, sɔː⁵⁵li⁵³	Tshona (Mama)	7	U+0254 U+02d0
 ɔ$	ɔ	ɛ ʁe lɔ, ɣlɔ	Ergong (Danba), Tibetan (Amdo:Zeku), Bokar Lhoba	23	U+0254 U+0024
-ɔʴ	ɔʴ	khuɔʴ⁵⁵ɔʴ³¹, uɔʴ⁵⁵ɔʴ³¹	Nusu (Bijiang), Trung [Dulong], Sulung [Puroik]	40	U+0254 U+02b4
-ɔ̃ʴ	ɔ̃ʴ	xuɔ̃ʴ³¹tɑ⁵⁵ɑ³¹	Nusu (Bijiang)	1	U+0254 U+0303 U+02b4
+ɔʴ	ɔ˞	khuɔʴ⁵⁵ɔʴ³¹, uɔʴ⁵⁵ɔʴ³¹	Nusu (Bijiang), Trung [Dulong], Sulung [Puroik]	40	U+0254 U+02b4
+ɔ̃ʴ	ɔ̃˞	xuɔ̃ʴ³¹tɑ⁵⁵ɑ³¹	Nusu (Bijiang)	1	U+0254 U+0303 U+02b4
 p	p	a³³pjo³³, ɛ³³pu⁵⁵	Tibetan (Lhasa), Tibetan (Written), Tshona (Mama), Jingpho, Bokar Lhoba, rGyalrong, Kaman [Miju], Tsangla (Motuo), Idu, Atsi [Zaiwa], Trung [Dulong], Queyu (Yajiang) [Zhaba], Lahu (Black), Tibetan (Khams:Dege), Darang [Taraon], Achang (Longchuan), Jinuo, Qiang (Taoping), Tibetan (Amdo:Bla-brang), Guiqiong, Burmese (Written), Pumi (Qinghua), Tujia, Qiang (Mawo), Hani (Shuikui), Pumi (Taoba), Burmese (Spoken Rangoon), Maru [Langsu], Sulung [Puroik], Bai (Dali), Ergong (Danba), Hani (Caiyuan), Yi (Mile), Yi (Nanjian), Xumi, Bai (Bijiang), Namuyi, Bai (Jianchuan), Muya [Minyak], Tibetan (Amdo:Zeku), Yi (Xide), Naxi (Lijiang), Yi (Nanhua), Yi (Mojiang), Ersu, Naxi (Yongning), Lisu, Yi (Dafang), Nusu (Bijiang), Hani (Dazhai), Anong	3121	U+0070
 p̣	p̣	dʑɑ³⁵p̣lɑ⁵³	Darang [Taraon]	1	U+0070 U+0323
 p$	p	nəp, nup	Burmese (Written), Tibetan (Amdo:Bla-brang), Tsangla (Motuo), Tibetan (Amdo:Zeku), rGyalrong, Bokar Lhoba, Qiang (Mawo)	205	U+0070 U+0024
-pe³³thi²¹~	p e ³³ + tʰ i ²¹	pe³³thi²¹~	Yi (Mojiang)	1	U+0070 U+0065 U+00b3 U+00b3 U+0074 U+0068 U+0069 U+00b2 U+00b9 U+007e
-pe̱³³ʑi²¹~	p e̱ ³³ + ʑ i ²¹	pe̱³³ʑi²¹~	Yi (Mojiang)	1	U+0070 U+0065 U+0331 U+00b3 U+00b3 U+0291 U+0069 U+00b2 U+00b9 U+007e
+^pe³³thi²¹~$	p e ³³ + tʰ i ²¹	pe³³thi²¹~	Yi (Mojiang)	1	U+0070 U+0065 U+00b3 U+00b3 U+0074 U+0068 U+0069 U+00b2 U+00b9 U+007e
+^pe̱³³ʑi²¹~$	p e̱ ³³ + ʑ i ²¹	pe̱³³ʑi²¹~	Yi (Mojiang)	1	U+0070 U+0065 U+0331 U+00b3 U+00b3 U+0291 U+0069 U+00b2 U+00b9 U+007e
 ph	pʰ	luŋ⁵⁵phaʔ⁵⁵, ɑu⁵³phɑ³¹	Anong, Jinuo, Lahu (Black), Ersu, Lisu, Yi (Mile), Hani (Caiyuan), Hani (Dazhai), Kaman [Miju], Yi (Nanhua), Hani (Shuikui), Tujia, Nusu (Bijiang), Yi (Dafang), Yi (Mojiang), rGyalrong, Yi (Nanjian), Tsangla (Motuo), Yi (Xide), Tibetan (Written), Atsi [Zaiwa], Maru [Langsu], Namuyi, Naxi (Lijiang), Naxi (Yongning), Guiqiong, Jingpho, Muya [Minyak], Burmese (Written), Burmese (Spoken Rangoon), Queyu (Yajiang) [Zhaba], Bai (Bijiang), Ergong (Danba), Idu, Qiang (Mawo), Pumi (Taoba), Tshona (Mama), Achang (Longchuan), Bai (Dali), Qiang (Taoping), Xumi, Tibetan (Khams:Dege), Tibetan (Lhasa), Bai (Jianchuan), Pumi (Qinghua), Darang [Taraon], Tibetan (Amdo:Zeku), Tibetan (Amdo:Bla-brang)	892	U+0070 U+0068
 pʰ	pʰ	lɛ²¹pʰu³³, ɑ⁵⁵pʰy²¹	Lisu, Yi (Mile), Yi (Nanjian), Yi (Dafang), Lahu (Black), Yi (Mojiang), Jinuo, Naxi (Lijiang)	19	U+0070 U+02b0
 phɕ	pʰ ɕ	sphɕa	Ergong (Danba)	1	U+0070 U+0068 U+0255
@@ -663,12 +669,12 @@ pʒ	pʒ	pʒuŋ³¹pʒuŋ³¹, thə¹³pʒa⁵⁵	Jingpho, Pumi (Qinghua)	12	U+00
 q	q	ʂqu, χqɑ³³	Qiang (Mawo), Lahu (Black), Namuyi, Bai (Bijiang), Qiang (Taoping), Pumi (Qinghua), Xumi, Ergong (Danba), Muya [Minyak], Queyu (Yajiang) [Zhaba], Guiqiong	279	U+0071
 q$	q	tiɑq, stɤ◦q	Qiang (Mawo)	18	U+0071 U+0024
 qh	qʰ	tʃɿ⁵³qho⁵⁵qho⁵⁵, sqhlɛ	Ergong (Danba), Lahu (Black), Namuyi, Xumi, Bai (Bijiang), Qiang (Mawo), Muya [Minyak], Pumi (Qinghua), Guiqiong, Qiang (Taoping), Queyu (Yajiang) [Zhaba]	114	U+0071 U+0068
-qhs	qhs	ha qhsi	Qiang (Mawo)	1	U+0071 U+0068 U+0073
+qhs	qʰ s	ha qhsi	Qiang (Mawo)	1	U+0071 U+0068 U+0073
 qhʂ	qʰ ʂ	sqhʂi	Ergong (Danba)	1	U+0071 U+0068 U+0282
 r	r	tə rgi, sro	Tibetan (Written), rGyalrong, Burmese (Written), Tshona (Mama), Tibetan (Amdo:Zeku), Tibetan (Amdo:Bla-brang), Tsangla (Motuo), Bokar Lhoba, Queyu (Yajiang) [Zhaba], Tibetan (Lhasa), Sulung [Puroik], Pumi (Taoba), Xumi, Muya [Minyak], Tibetan (Khams:Dege), Ersu, Jinuo, Qiang (Mawo), Naxi (Yongning), Idu, Kaman [Miju], Darang [Taraon], Nusu (Bijiang), Ergong (Danba), Yi (Nanjian), Anong, Guiqiong	1439	U+0072
 r̥	r̥	bir̥a	Qiang (Mawo)	1	U+0072 U+0325
 r$	r	xhar, ɕar	Tibetan (Amdo:Zeku), rGyalrong, Tibetan (Written), Bokar Lhoba, Tibetan (Amdo:Bla-brang), Tsangla (Motuo), Qiang (Mawo), Tibetan (Khams:Dege)	262	U+0072 U+0024
-rs	rs	tə rsi	rGyalrong	1	U+0072 U+0073
+rs	r s	tə rsi	rGyalrong	1	U+0072 U+0073
 rw	rʷ	krwe³tɑŋ², ɑ¹◦rwɑk	Burmese (Written), rGyalrong, Tibetan (Written)	17	U+0072 U+0077
 ɹ	ɹ	ndəɹ³³, ndʐəɹ³³	Idu, Nusu (Bijiang), Darang [Taraon], Naxi (Lijiang), Trung [Dulong], Kaman [Miju], Jinuo, Naxi (Yongning), Anong, Sulung [Puroik], Bai (Bijiang), Bai (Dali), Qiang (Mawo)	1173	U+0279
 ɹ$	ɹ	bɑɹ	Qiang (Mawo)	1	U+0279 U+0024
@@ -692,7 +698,7 @@ t	t	stə, tə mo tᴇ	Jingpho, Kaman [Miju], Burmese (Spoken Rangoon), Sulung [P
 ṯ	ṯ	ɑ ṯθi⁵⁵	Burmese (Spoken Rangoon)	1	U+1e6f
 t$	t	kɐ phot, jet	rGyalrong, Burmese (Written), Bokar Lhoba, Tsangla (Motuo), Qiang (Mawo), Atsi [Zaiwa], Tshona (Mama)	142	U+0074 U+0024
 tɕ	tɕ	htɕək, fe³³tɕi³³	Tibetan (Amdo:Bla-brang), Queyu (Yajiang) [Zhaba], Tibetan (Written), Muya [Minyak], Tibetan (Amdo:Zeku), Bokar Lhoba, Tibetan (Lhasa), Idu, Ergong (Danba), Trung [Dulong], Bai (Bijiang), Bai (Dali), Guiqiong, Tshona (Mama), Tibetan (Khams:Dege), Darang [Taraon], Sulung [Puroik], Qiang (Mawo), Qiang (Taoping), Burmese (Spoken Rangoon), Bai (Jianchuan), Yi (Xide), Yi (Mile), Tujia, Tsangla (Motuo), Xumi, Jinuo, Naxi (Lijiang), Pumi (Taoba), Achang (Longchuan), Yi (Mojiang), Kaman [Miju], Yi (Nanjian), Naxi (Yongning), Nusu (Bijiang), Ersu, Hani (Dazhai), Yi (Dafang), Pumi (Qinghua), Namuyi, Anong, Yi (Nanhua), Hani (Shuikui)	1050	U+0074 U+0255
-tɕɕ	tɕɕ	rtɕɕə nɐ	Tibetan (Amdo:Zeku)	1	U+0074 U+0255 U+0255
+tɕɕ	tɕ ɕ	rtɕɕə nɐ	Tibetan (Amdo:Zeku)	1	U+0074 U+0255 U+0255
 tɕe̱³³mi⁵⁵~	tɕ e̱ ³³ + m i ⁵⁵	tɕe̱³³mi⁵⁵~	Yi (Mojiang)	1	U+0074 U+0255 U+0065 U+0331 U+00b3 U+00b3 U+006d U+0069 U+2075 U+2075 U+007e
 tɕh	tɕʰ	lə³⁵tɕhu⁵³, tɕhoŋ tɕhoŋ	Anong, Ergong (Danba), Tibetan (Lhasa), Tibetan (Written), Tibetan (Amdo:Bla-brang), Yi (Nanjian), Tujia, Tibetan (Amdo:Zeku), Jinuo, Muya [Minyak], Pumi (Taoba), Burmese (Spoken Rangoon), Yi (Mojiang), Yi (Dafang), Achang (Longchuan), Queyu (Yajiang) [Zhaba], Hani (Dazhai), Nusu (Bijiang), Xumi, Yi (Nanhua), Yi (Xide), Tibetan (Khams:Dege), Bai (Bijiang), Tsangla (Motuo), Ersu, Hani (Shuikui), Guiqiong, Idu, Naxi (Lijiang), Qiang (Taoping), Bai (Jianchuan), Bai (Dali), Pumi (Qinghua), Tshona (Mama), Kaman [Miju], Namuyi, Yi (Mile), Qiang (Mawo), Naxi (Yongning), Darang [Taraon]	549	U+0074 U+0255 U+0068
 tɕʰ	tɕʰ	a³³tɕʰe⁴⁴, ŋu̱³³tɕʰe²¹	Yi (Mojiang), Jinuo, Yi (Nanjian)	4	U+0074 U+0255 U+02b0
@@ -736,12 +742,13 @@ u̵	u̵	xɑ⁵⁵pu̵⁵⁵pu̵⁵⁵, bu̵⁵⁵tshu̵⁵³	Pumi (Taoba), Guiqi
 u̱	u̱	khu̱²¹, du̱³³	Yi (Mile), Yi (Mojiang), Hani (Dazhai), Yi (Nanhua), Yi (Xide), Atsi [Zaiwa], Jingpho, Nusu (Bijiang), Maru [Langsu], Yi (Nanjian), Hani (Caiyuan)	487	U+0075 U+0331
 uː	uː	ɦuː◦po, tɕuː³³m̥o⁴⁴	Bokar Lhoba, Tshona (Mama), Qiang (Mawo), Yi (Xide)	10	U+0075 U+02d0
 uː$	uː	u guː, buː	Bokar Lhoba, Qiang (Mawo)	13	U+0075 U+02d0 U+0024
-uːʴ$	uːʴ	quːʴ	Qiang (Mawo)	1	U+0075 U+02d0 U+02b4 U+0024
+uːʴ$	u˞ː	quːʴ	Qiang (Mawo)	1	U+0075 U+02d0 U+02b4 U+0024
 u$	u	khu, bu	Qiang (Mawo), Ergong (Danba), rGyalrong, Tsangla (Motuo), Tibetan (Written), Bokar Lhoba, Tibetan (Amdo:Zeku), Tibetan (Amdo:Bla-brang), Yi (Nanjian), Tujia	533	U+0075 U+0024
 û$	û	kɑn²son³û	Burmese (Written)	1	U+00fb U+0024
 u̪$	u̪	li̱²¹ka²¹n̩ɿ⁵⁵du̪⁵⁵khu̪	Yi (Nanjian)	1	U+0075 U+032a U+0024
 u̵$	u̵	lu̵, a pu̵	Ergong (Danba)	5	U+0075 U+0335 U+0024
 uṁ	ũ				
+uṁ$	ũ				
 uʴ	uʴ	khuʴq, suʴ mu	Qiang (Mawo)	9	U+0075 U+02b4
 ŭʴ	ŭʴ	mɯ³¹dŭʴ⁵³	Trung [Dulong]	1	U+016d U+02b4
 uʴ$	uʴ	buʴ, qhuʴ	Qiang (Mawo)	8	U+0075 U+02b4 U+0024
@@ -768,11 +775,11 @@ v̱̩	v̱̩	thv̱̩³¹xv̱̩³¹, tv̱̩³³pv̱̩³³	Hani (Shuikui)	19	U+0076
 vɕ	v ɕ	sqha wɯ vɕi, thɛ vɕe	Ergong (Danba)	2	U+0076 U+0255
 vɕh	v ɕʰ	ɛ vɕhɛʴ dɛ guɛ	Ergong (Danba)	1	U+0076 U+0255 U+0068
 vi̱³³vi̱³³~	v i̱ ³³ + v i̱ ³³ 	vi̱³³vi̱³³~	Yi (Mojiang)	1	U+0076 U+0069 U+0331 U+00b3 U+00b3 U+0076 U+0069 U+0331 U+00b3 U+00b3 U+007e
-vs	vs	ʁa vsu	Ergong (Danba)	1	U+0076 U+0073
-vʐ	vʐ	ʁa vʐau, sga vʐɯ	Ergong (Danba)	3	U+0076 U+0290
-vʑ	vʑ	ʁa vʑɛ, ndʐi vʑɛ	Ergong (Danba)	4	U+0076 U+0291
+vs	v s	ʁa vsu	Ergong (Danba)	1	U+0076 U+0073
+vʐ	v ʐ	ʁa vʐau, sga vʐɯ	Ergong (Danba)	3	U+0076 U+0290
+vʑ	v ʑ	ʁa vʑɛ, ndʐi vʑɛ	Ergong (Danba)	4	U+0076 U+0291
 w	w	sɑ⁵⁵wɑi⁵³, dzɑ³¹wɑ⁵⁵	rGyalrong, Tibetan (Amdo:Bla-brang), Tibetan (Amdo:Zeku), Queyu (Yajiang) [Zhaba], Tibetan (Khams:Dege), Kaman [Miju], Muya [Minyak], Tsangla (Motuo), Trung [Dulong], Darang [Taraon], Jingpho, Idu, Ergong (Danba), Guiqiong, Qiang (Mawo), Ersu, Tibetan (Lhasa), Sulung [Puroik], Pumi (Taoba), Tshona (Mama), Burmese (Written), Burmese (Spoken Rangoon), Tujia, Xumi, Lisu, Bokar Lhoba, Tibetan (Written)	522	U+0077
-wɕ	wɕ	khaŋ wɕi, cço wɕi	Tibetan (Amdo:Zeku), Ergong (Danba)	7	U+0077 U+0255
+wɕ	w ɕ	khaŋ wɕi, cço wɕi	Tibetan (Amdo:Zeku), Ergong (Danba)	7	U+0077 U+0255
 ws	ws	ɣȵək wsə, kha wsə	Tibetan (Amdo:Zeku), Tibetan (Khams:Dege), Ergong (Danba)	4	U+0077 U+0073
 wʐ	wʐ	sa wʐɯ, wʐɯ wʐe	Ergong (Danba)	2	U+0077 U+0290
 wʑ	wʑ	rdza wʑə wa, a wʑaŋ	Tibetan (Amdo:Zeku)	4	U+0077 U+0291
@@ -802,3 +809,5 @@ zʐ	zʐ	nzʐɯ	Ergong (Danba)	1	U+007a U+0290
 θ	θ	tθiʔ⁴⁴tθɑ⁵⁵, tθõ⁵⁵	Burmese (Spoken Rangoon), Sulung [Puroik]	104	U+03b8
 θw	θʷ	tθwɑ⁵⁵, tθwe⁵⁵	Burmese (Spoken Rangoon)	8	U+03b8 U+0077
 χ	χ	pian χuɑ tʃə, tsə χɑ	Qiang (Taoping), Qiang (Mawo), Namuyi, Xumi, Muya [Minyak]	89	U+03c7
+aṁ	ã				
+aṁ$	ã				
