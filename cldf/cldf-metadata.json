@@ -8,6 +8,7 @@
     "dc:identifier": "https://stedt.berkeley.edu/~stedt-cgi/rootcanal.pl/source/ZMYYC",
     "dc:source": "sources.bib",
     "dc:title": "Sun ZMYYC [Tibeto-Burman phonology and lexicon]",
+    "dcat:accessURL": "https://github.com/lexibank/suntb",
     "rdf:ID": "suntb",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "dialect": {
@@ -17,8 +18,8 @@
         {
             "dc:title": "environment",
             "properties": {
-                "glottolog_version": "v3.4",
-                "concepticon_version": "v2.0"
+                "glottolog_version": "v3.2-35-g0c8091d",
+                "concepticon_version": "v2.0-3-g05e86da"
             }
         }
     ],
