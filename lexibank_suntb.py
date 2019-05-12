@@ -74,12 +74,12 @@ class Dataset(BaseDataset):
                 if reflex.startswith('◦'):
                     reflex = reflex[1:]
 
-                for form in split_text(reflex, separators=';/'):
+                for form in split_text(reflex, separators=';/~'):
                     # remove multiple spaces; leading&trailing
                     form = re.sub('\s+', ' ', form).strip()
 
                     # skip over if empty entry
-                    if form in ['*', '--']:
+                    if form in ['*', '--', '']:
                         continue
 
                     # comment out once a profile is made
