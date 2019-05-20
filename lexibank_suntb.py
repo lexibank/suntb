@@ -3,9 +3,11 @@ from __future__ import unicode_literals, print_function
 
 from clldutils.path import Path
 from clldutils.misc import slug
+from clldutils.text import *
 from pylexibank.dataset import Metadata
 from pylexibank.dataset import Dataset as BaseDataset
 from pylexibank.util import getEvoBibAsBibtex
+from tqdm import tqdm
 
 from clldutils.text import split_text
 import re
@@ -14,6 +16,14 @@ class Dataset(BaseDataset):
     dir = Path(__file__).parent
     id = 'suntb'
 
+    def clean_form(self, item, form):
+        if form not in ['*', '---', '-', '', '--']:
+            forms = split_text(form, separators=';,/')
+            if forms:
+                form = strip_brackets(forms[0])
+                return form.replace(' ' , '_').replace('__',
+                        '_').strip('!').strip('?').strip('_')
+    
     def cmd_install(self, **kw):
 
         with self.cldf as ds:
@@ -44,7 +54,7 @@ class Dataset(BaseDataset):
             ds.add_concepts(id_factory=lambda c: slug(c.label))
 
             # add lexemes
-            for entry in self.raw.read_tsv('ZMYYC.csv')[1:]:
+            for entry in tqdm(self.raw.read_tsv('ZMYYC.csv')[1:], desc='cldfify'):
                 # extract fields from row; we replace glosses commas
                 # (avoiding escape problems and difficulties) and
                 # check whether the current gloss is an alias
@@ -54,44 +64,13 @@ class Dataset(BaseDataset):
                 if gloss in concept_map:
                     gloss = concept_map[gloss]
 
-                # with the exception of indications of Chinese loanwords,
-                # treated here, all parentheses actually contain sound
-                # information, so we should keep them; after that, remove
-                # only parentheses (and the information in between)
-                reflex = reflex.replace('(Ch.)', '')
-                reflex = reflex.replace('(', '')
-                reflex = reflex.replace(')', '')
-
-                # remove doubt marks
-                reflex = reflex.replace('???', '')
-                reflex = reflex.replace('?', '')
-                reflex = reflex.replace('??', '')
-
-                # remove elipsis
-                reflex = reflex.replace('...', ' ')
-
-                # remove preceding boundaries
-                if reflex.startswith('◦'):
-                    reflex = reflex[1:]
-
-                for form in split_text(reflex, separators=';/~'):
-                    # remove multiple spaces; leading&trailing
-                    form = re.sub('\s+', ' ', form).strip()
-
-                    # skip over if empty entry
-                    if form in ['*', '--', '']:
-                        continue
-
-                    # comment out once a profile is made
-                    #tokens = self._tokenizer("IPA", form)
-
-                    for row in ds.add_lexemes(
-                        Language_ID=slug(language),
-                        Parameter_ID=slug(gloss),
-                        Value=form,
-                        Source=['Sun1991'],
-                    ):
-                        pass
+                for row in ds.add_lexemes(
+                    Language_ID=slug(language),
+                    Parameter_ID=slug(gloss),
+                    Value=entry[1],
+                    Source=['Sun1991'],
+                ):
+                    pass
 
     def cmd_download(self, **kw):
         if not self.raw.exists():
