@@ -1,7 +1,7 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
     "aboutUrl": null,
-    "dc:bibliographicCitation": "S\u016bn, H\u00f3ngk\u0101i \u5b59\u5b8f\u5f00 (1991. Zangmianyu yuyin he cihui \u85cf\u7f05\u8bed\u97f3\u548c\u8bcd\u6c47 [Tibeto-Burman phonology and lexicon]. Beijing: Chinese Social Sciences Press. Accessed via STEDT database",
+    "dc:bibliographicCitation": "S\u016bn, H\u00f3ngk\u0101i \u5b59\u5b8f\u5f00 (1991): Zangmianyu yuyin he cihui \u85cf\u7f05\u8bed\u97f3\u548c\u8bcd\u6c47 [Tibeto-Burman phonology and lexicon]. Beijing: Chinese Social Sciences Press.",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:description": null,
     "dc:format": [

@@ -2,7 +2,7 @@
 
 Cite the source dataset as
 
-> Sūn, Hóngkāi 孙宏开 (1991. Zangmianyu yuyin he cihui 藏缅语音和词汇 [Tibeto-Burman phonology and lexicon]. Beijing: Chinese Social Sciences Press. Accessed via STEDT database
+> Sūn, Hóngkāi 孙宏开 (1991): Zangmianyu yuyin he cihui 藏缅语音和词汇 [Tibeto-Burman phonology and lexicon]. Beijing: Chinese Social Sciences Press.
 
 Available online at https://stedt.berkeley.edu/~stedt-cgi/rootcanal.pl/source/ZMYYC
 
