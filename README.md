@@ -1,8 +1,8 @@
-# Sun ZMYYC [Tibeto-Burman phonology and lexicon]
+# Tibeto-Burman Phonology and Lexicon
 
 Cite the source dataset as
 
-> Sun Hongkai et al. 1991. Zangmianyu yuyin he cihui 《藏缅语音和词汇》[Tibeto-Burman phonology and lexicon]. Beijing: Chinese Social Sciences Press. Accessed via STEDT database
+> Sūn, Hóngkāi 孙宏开 (1991. Zangmianyu yuyin he cihui 藏缅语音和词汇 [Tibeto-Burman phonology and lexicon]. Beijing: Chinese Social Sciences Press. Accessed via STEDT database
 
 Available online at https://stedt.berkeley.edu/~stedt-cgi/rootcanal.pl/source/ZMYYC
 
@@ -24,6 +24,6 @@ Conceptlists in Concepticon:
 - **Lexemes:** 50,434
 - **Synonymy:** 1.04
 - **Invalid lexemes:** 0
-- **Tokens:** 304,247
-- **Segments:** 315 (0 BIPA errors, 0 CTLS sound class errors, 315 CLTS modified)
-- **Inventory size (avg):** 66.51
+- **Tokens:** 303,739
+- **Segments:** 320 (0 BIPA errors, 0 CTLS sound class errors, 320 CLTS modified)
+- **Inventory size (avg):** 67.37

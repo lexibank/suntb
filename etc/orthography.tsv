@@ -1,4 +1,31 @@
 Grapheme	IPA
+iɑ	j ɑ
+iɑʴ	j ɑ˞
+uɑʴ	w ɑ˞
+uiʴ	w i˞
+uɑːʴ	w ɑː˞
+uɑ	w ɑ
+iɑ̃	j ã
+iɑ̃u	i ãu
+uɑ̄	w ɑː
+uɑ̃ʴ	w ɑ̃˞
+iɑ̱	j ɑ̱
+uɑ̃	w ɑ̃
+yĩ	ɥ ĩ
+ɑo	ɑo
+yo	ɥ o
+ẽiː	ẽi
+ao	ao
+u̱i̱	u̱i
+iɑː	j ɑː
+uɑː	w ɑː
+uɑ̃ː	w ɑ̃ː
+yĩː	ɥ ĩː
+ɑoː	ɑoː
+yoː	ɥ oː
+ẽiː	ẽiː
+aoː	aoː
+u̱i̱ː	u̱iː
 !	NULL
 $	NULL
 (	NULL
@@ -2124,3 +2151,4 @@ zʐ	z ʐ
 ⁵⁵|_	⁵⁵ +
 ¹⁵_-_	¹⁵ +
 ²¹◦◦	+
+ui	ui

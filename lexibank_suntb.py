@@ -8,6 +8,8 @@ from pylexibank.dataset import Metadata
 from pylexibank.dataset import Dataset as BaseDataset
 from pylexibank.util import getEvoBibAsBibtex
 from tqdm import tqdm
+import lingpy as lp
+from pyclts import TranscriptionSystem 
 
 from clldutils.text import split_text
 import re
