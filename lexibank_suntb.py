@@ -2,16 +2,26 @@ from clldutils.misc import slug
 from clldutils.path import Path
 from clldutils.text import *
 from clldutils.text import split_text
-from pylexibank.dataset import Dataset as BaseDataset
+from pylexibank.dataset import Dataset as BaseDataset, Language
 from pylexibank.util import getEvoBibAsBibtex
 from tqdm import tqdm
 import lingpy as lp
 from pyclts import TranscriptionSystem 
+import attr
+
+@attr.s
+class HLanguage(Language):
+    Latitude = attr.ib(default=None)
+    Longitude = attr.ib(default=None)
+    ChineseName = attr.ib(default=None)
+    SubGroup = attr.ib(default=None)
+    Family = attr.ib(default=None)
 
 
 class Dataset(BaseDataset):
     dir = Path(__file__).parent
     id = "suntb"
+    language_class = HLanguage
 
     def clean_form(self, item, form):
         if form not in ["*", "---", "-", "", "--"]:
@@ -24,7 +34,18 @@ class Dataset(BaseDataset):
 
         with self.cldf as ds:
             ds.add_sources()
-            ds.add_languages(id_factory=lambda l: slug(l["Name"]))
+            langs = {}
+            for language in self.languages:
+                ds.add_language(
+                        ID=language['ID'],
+                        Glottocode=language["Glottocode"],
+                        Name=language["Name"],
+                        Latitude=language['Latitude'],
+                        Longitude=language['Longitude'],
+                        SubGroup=language['SubGroup'],
+                        Family='Sino-Tibetan'
+                    )
+                langs[language["Name"]] = language['ID']
 
             # add concepts, first from the local list, then from the conceptlist
             # (this is necessary because this data is a partial subset of the
@@ -61,7 +82,7 @@ class Dataset(BaseDataset):
                     gloss = concept_map[gloss]
 
                 ds.add_lexemes(
-                    Language_ID=slug(language),
+                    Language_ID=langs[language],
                     Parameter_ID=slug(gloss),
                     Value=entry[1],
                     Source=["Sun1991"],
