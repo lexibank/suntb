@@ -3,31 +3,56 @@
     "aboutUrl": null,
     "dc:bibliographicCitation": "S\u016bn, H\u00f3ngk\u0101i \u5b59\u5b8f\u5f00 (1991): Zangmianyu yuyin he cihui \u85cf\u7f05\u8bed\u97f3\u548c\u8bcd\u6c47 [Tibeto-Burman phonology and lexicon]. Beijing: Chinese Social Sciences Press.",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
-    "dc:description": null,
     "dc:format": [
         "http://concepticon.clld.org/contributions/Sun-1991-1004"
     ],
     "dc:identifier": "https://stedt.berkeley.edu/~stedt-cgi/rootcanal.pl/source/ZMYYC",
     "dc:isVersionOf": null,
-    "dc:license": null,
     "dc:related": null,
     "dc:source": "sources.bib",
     "dc:title": "Tibeto-Burman Phonology and Lexicon",
     "dcat:accessURL": "https://github.com/lexibank/suntb",
+    "prov:wasDerivedFrom": [
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/suntb",
+            "dc:created": "v2.1-9-gf8786ae"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Glottolog",
+            "rdf:about": "https://github.com/lingulist/glottolog-data",
+            "dc:created": "v4.0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "CLTS",
+            "rdf:about": "https://github.com/cldf-clts/clts/",
+            "dc:created": "v1.4"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Concepticon",
+            "rdf:about": "https://github.com/concepticon/concepticon-data/",
+            "dc:created": "v2.1.0-109-g408e9f8"
+        }
+    ],
+    "prov:wasGeneratedBy": [
+        {
+            "dc:title": "python",
+            "dc:description": "3.5.2"
+        },
+        {
+            "dc:title": "python-packages",
+            "dc:relation": "requirements.txt"
+        }
+    ],
     "rdf:ID": "suntb",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "dialect": {
         "commentPrefix": null
     },
-    "notes": [
-        {
-            "dc:title": "environment",
-            "properties": {
-                "glottolog_version": "v4.0-12-ge90a2e37f4",
-                "concepticon_version": "v2.1.0-6-ga171367"
-            }
-        }
-    ],
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
@@ -92,6 +117,10 @@
                     {
                         "datatype": "boolean",
                         "name": "Loan"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "STEDT_RN"
                     }
                 ],
                 "foreignKeys": [
@@ -185,10 +214,6 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "ChineseName"
-                    },
-                    {
-                        "datatype": "string",
                         "name": "SubGroup"
                     }
                 ],
@@ -200,7 +225,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 996,
+            "dc:extent": 1004,
             "tableSchema": {
                 "columns": [
                     {
@@ -222,6 +247,14 @@
                     {
                         "datatype": "string",
                         "name": "Concepticon_Gloss"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Chinese_Gloss"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Number"
                     }
                 ],
                 "primaryKey": [

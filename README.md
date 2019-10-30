@@ -6,9 +6,9 @@ Cite the source dataset as
 
 Available online at https://stedt.berkeley.edu/~stedt-cgi/rootcanal.pl/source/ZMYYC
 
-Conceptlists in Concepticon:
-- [Sun-1991-1004](http://concepticon.clld.org/contributions/Sun-1991-1004)
 
+Conceptlists in Concepticon:
+- [Sun-1991-1004](https://concepticon.clld.org/contributions/Sun-1991-1004)
 ## Statistics
 
 
@@ -20,11 +20,11 @@ Conceptlists in Concepticon:
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
 - **Varieties:** 51
-- **Concepts:** 996
+- **Concepts:** 1,004
 - **Lexemes:** 50,434
 - **Sources:** 1
-- **Synonymy:** 1.04
+- **Synonymy:** 1.02
 - **Invalid lexemes:** 0
-- **Tokens:** 303,739
+- **Tokens:** 303,809
 - **Segments:** 320 (0 BIPA errors, 0 CTLS sound class errors, 320 CLTS modified)
 - **Inventory size (avg):** 67.37
