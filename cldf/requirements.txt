@@ -12,19 +12,16 @@ decorator==4.4.1
 idna==2.8
 isodate==0.6.0
 jdcal==1.4.1
--e git+https://github.com/lexibank/abrahammonpa@6576ef7c0a2ae00d2bbfcb8042c149f20f3827a5#egg=lexibank_abrahammonpa
 -e git+https://github.com/lexibank/allenbai.git@2115179090d47dd9b18ab8cf41a4b4d83e82955c#egg=lexibank_allenbai
--e git+https://github.com/lexibank/dagloans.git@9bd9f27288d21c0cf559d1a6e45a362dab598862#egg=lexibank_dagloans
 -e git+https://github.com/lexibank/naganorgyalrongic@3f7336c46c182f73b11a6ed5ab2a60dae31e0342#egg=lexibank_naganorgyalrongic
--e git+https://github.com/lexibank/suntb.git@f8786aebbf9ad26e4870d80a401f9691fd5a66db#egg=lexibank_suntb
+-e git+https://github.com/lexibank/suntb.git@0db42dc4df3c6be3391a25a4516020765cc02cbe#egg=lexibank_suntb
 -e git+https://github.com/lingpy/lingpy.git@2a1671c1b65886e1d33eccd74818b29bc4ce73dd#egg=lingpy
 Markdown==3.1.1
 networkx==2.2
 newick==1.0.0
 numpy==1.17.3
-openpyxl==2.6.4
+openpyxl==3.0.0
 packaging==19.2
-pathlib2==2.3.5
 pluggy==0.13.0
 purl==1.5
 py==1.8.0
@@ -34,7 +31,7 @@ pycldf==1.8.2
 -e git+https://github.com/concepticon/pyconcepticon.git@615a048b11cc6e5f8a3fe92619ad7790b23154db#egg=pyconcepticon
 pycountry==19.8.18
 -e git+https://github.com/clld/pyglottolog.git@0f24f24a46d1f510c975337e4c0d8c23b357c8bd#egg=pyglottolog
--e git+https://github.com/lexibank/pylexibank.git@9d3001127a62fc063845f02a5afafd43a5be7234#egg=pylexibank
+-e git+https://github.com/lexibank/pylexibank.git@9c4fe91d165a98b82aca386c8ed6809afed8efd8#egg=pylexibank
 pytest==5.2.2
 regex==2019.8.19
 requests==2.22.0

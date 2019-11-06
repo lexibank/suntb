@@ -25,16 +25,12 @@ class CustomConcept(Concept):
     Chinese_Gloss = attr.ib(default=None)
     Number = attr.ib(default=None)
 
-@attr.s
-class CustomLexeme(Lexeme):
-    STEDT_RN = attr.ib(default=None)
 
 class Dataset(BaseDataset):
     dir = Path(__file__).parent
     id = "suntb"
     language_class = CustomLanguage
     concept_class = CustomConcept
-    lexeme_class = CustomLexeme
     form_spec = FormSpec(
             separators = ';,/',
             missing_data = ('*', '---', '-', '--'),
@@ -68,7 +64,7 @@ class Dataset(BaseDataset):
                     Language_ID=language_lookup[entry['language']],
                     Parameter_ID=concept_lookup.get(
                         entry['srcid'].split('.')[0]),
-                    STEDT_RN=entry['rn'],
+                    Local_ID=entry['rn'],
                     Value=entry['reflex'],
                     Source=['Sun1991']
                     )

@@ -17,7 +17,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/suntb",
-            "dc:created": "v2.1-9-gf8786ae"
+            "dc:created": "v2.1-10-g0db42dc"
         },
         {
             "rdf:type": "prov:Entity",
@@ -27,21 +27,21 @@
         },
         {
             "rdf:type": "prov:Entity",
-            "dc:title": "CLTS",
-            "rdf:about": "https://github.com/cldf-clts/clts/",
-            "dc:created": "v1.4"
+            "dc:title": "Concepticon",
+            "rdf:about": "https://github.com/concepticon/concepticon-data/",
+            "dc:created": "v2.1.0-127-g0463ef6"
         },
         {
             "rdf:type": "prov:Entity",
-            "dc:title": "Concepticon",
-            "rdf:about": "https://github.com/concepticon/concepticon-data/",
-            "dc:created": "v2.1.0-109-g408e9f8"
+            "dc:title": "CLTS",
+            "rdf:about": "https://github.com/cldf-clts/clts/",
+            "dc:created": "v1.4"
         }
     ],
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.5.2"
+            "dc:description": "3.7.4"
         },
         {
             "dc:title": "python-packages",
@@ -117,10 +117,6 @@
                     {
                         "datatype": "boolean",
                         "name": "Loan"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "STEDT_RN"
                     }
                 ],
                 "foreignKeys": [
