@@ -29,7 +29,9 @@ class Dataset(BaseDataset):
     language_class = CustomLanguage
     concept_class = CustomConcept
     form_spec = FormSpec(
-        separators=";,/", missing_data=("*", "---", "-", "--"), brackets={"[": "]", "(": ")"}
+        separators=";,/",
+        missing_data=("*", "---", "-", "--"),
+        brackets={"[": "]", "(": ")"},
     )
 
     def cmd_download(self, args):
@@ -52,7 +54,9 @@ class Dataset(BaseDataset):
                 Name=concept.english,
                 Chinese_Gloss=concept.attributes["chinese"],
             )
-        for entry in progressbar(self.raw_dir.read_csv("ZMYYC.csv", delimiter="\t", dicts=True)):
+        for entry in progressbar(
+            self.raw_dir.read_csv("ZMYYC.csv", delimiter="\t", dicts=True)
+        ):
             args.writer.add_forms_from_value(
                 Language_ID=language_lookup[entry["language"]],
                 Parameter_ID=concept_lookup.get(entry["srcid"].split(".")[0]),
