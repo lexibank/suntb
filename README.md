@@ -25,6 +25,16 @@ Conceptlists in Concepticon:
 - **Sources:** 1
 - **Synonymy:** 1.02
 - **Invalid lexemes:** 0
-- **Tokens:** 303,809
-- **Segments:** 320 (0 BIPA errors, 0 CTLS sound class errors, 320 CLTS modified)
-- **Inventory size (avg):** 67.37
+- **Tokens:** 306,104
+- **Segments:** 296 (0 BIPA errors, 0 CTLS sound class errors, 296 CLTS modified)
+- **Inventory size (avg):** 64.43
+
+# Contributors
+
+Name | GitHub user | Role
+--- | --- | ---
+Johann-Mattis List | @LinguList | maintainer
+Tiago Tresoldi | @tresoldi | original profile and lexibank code
+STEDT | https://stedt.berkeley.edu | digitization
+
+
