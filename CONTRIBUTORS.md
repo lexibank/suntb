@@ -1,7 +1,7 @@
 # Contributors
 
-Name | GitHub user | Role
---- | --- | ---
-Johann-Mattis List | @LinguList | maintainer
-Tiago Tresoldi | @tresoldi | original profile and lexibank code
-STEDT | https://stedt.berkeley.edu | digitization
+Name | GitHub user | Description | Role
+--- | --- | --- | ---
+Johann-Mattis List | @LinguList | maintainer | Author 
+Tiago Tresoldi | @tresoldi | original profile and lexibank code | Author
+STEDT | https://stedt.berkeley.edu | digitization | Editor

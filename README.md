@@ -1,4 +1,4 @@
-# Tibeto-Burman Phonology and Lexicon
+# CLDF dataset derived from Sūn's "Tibeto-Burman Phonology and Lexicon" from 1991
 
 Cite the source dataset as
 
@@ -31,10 +31,10 @@ Conceptlists in Concepticon:
 
 # Contributors
 
-Name | GitHub user | Role
---- | --- | ---
-Johann-Mattis List | @LinguList | maintainer
-Tiago Tresoldi | @tresoldi | original profile and lexibank code
-STEDT | https://stedt.berkeley.edu | digitization
+Name | GitHub user | Description | Role
+--- | --- | --- | ---
+Johann-Mattis List | @LinguList | maintainer | Author 
+Tiago Tresoldi | @tresoldi | original profile and lexibank code | Author
+STEDT | https://stedt.berkeley.edu | digitization | Editor
 
 
