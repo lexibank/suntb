@@ -1,0 +1,29 @@
+{
+    "title": "CLDF dataset derived from S\u016bn's \"Tibeto-Burman Phonology and Lexicon\" from 1991",
+    "access_right": "open",
+    "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+    ],
+    "creators": [
+        {
+            "name": "Johann-Mattis List"
+        },
+        {
+            "name": "Tiago Tresoldi"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "STEDT",
+            "type": "Editor"
+        }
+    ],
+    "communities": [
+        {
+            "identifier": "lexibank"
+        }
+    ],
+    "upload_type": "dataset",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>S\u016bn, H\u00f3ngk\u0101i \u5b59\u5b8f\u5f00 (1991): Zangmianyu yuyin he cihui \u85cf\u7f05\u8bed\u97f3\u548c\u8bcd\u6c47 [Tibeto-Burman phonology and lexicon]. Beijing: Chinese Social Sciences Press.</p>\n</blockquote>"
+}
