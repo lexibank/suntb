@@ -263,7 +263,7 @@
 | e˞ː | 1 | ✓ | ✓ |
 | e˞̆/e˞ | 1 | ✓ | ✓ |
 | fʰ | 1 | ✓ | ✓ |
-| gɕ | 1 | ✓ | ✓ |
+| gɕ | 1 | ? | ? |
 | h̩/h | 1 | ✓ | ✓ |
 | i̥ | 1 | ✓ | ✓ |
 | i̱/i | 1 | ✓ | ✓ |
@@ -309,7 +309,7 @@
 ## Unsegmentable lexemes (up to 100 only)
 
 | ID | LANGUAGE | CONCEPT | FORM |
-|------|------------|-----------|--------|
+||
 
 (0 rows)
 
@@ -318,8 +318,9 @@
 ## Words with invalid segments (up to 100 only)
 
 | ID | LANGUAGE | CONCEPT | FORM | SEGMENTS |
-|------|------------|-----------|--------|------------|
+|:----------------------------|:---------------|:-----------|:----------|:-------------------------|
+| WrittenTibetan-414_plough-1 | WrittenTibetan | 414_plough | thoŋ gɕol | tʰ o ŋ + <s> gɕ </s> o l |
 
-(0 rows)
+(1 rows)
 
 
