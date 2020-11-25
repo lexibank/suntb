@@ -31,6 +31,7 @@ class Dataset(BaseDataset):
     form_spec = FormSpec(
         separators=";,/",
         missing_data=("*", "---", "-", "--"),
+        replacements=[(" ", "_")],
         brackets={"[": "]", "(": ")"},
     )
 

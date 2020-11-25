@@ -238,7 +238,7 @@ e̱	e̠/e	E	Vowel	463	U+0065 U+0331	"te̱n³¹,te̱⁵⁵mu²¹,tɕhi³³ɕe̱³
 g$	g	K	Consonant	102	U+0067 U+0024	"tshes pa gtɕig,ɦdre ɕig,ɦphrog"	WrittenTibetan
 gs	g s	K S	Consonant Consonant	29	U+0067 U+0073	"ltɕags khjem,mkhregs po,thags khri"	WrittenTibetan
 gw	gʷ	K	Consonant	2	U+0067 U+0077	"duŋ⁵⁵gwɑ⁵³,dzɯ³¹gwɑʔ⁵⁵"	Trung
-gɕ	gɕ	K	Cluster	1	U+0067 U+0255	"thoŋ gɕol"	WrittenTibetan
+gɕ	g ɕ	K	Cluster	1	U+0067 U+0255	"thoŋ gɕol"	WrittenTibetan
 gʐ	g ʐ	K S	Consonant Consonant	4	U+0067 U+0290	"gʐɯ gʐɯ,zgʐe,zgʐɯ mbɯ ko"	DanbaErgong
 gʑ	g ʑ	K S	Consonant Consonant	5	U+0067 U+0291	"gʑon gʑon,rdog rgjag gʑus,tɕu gʑu"	MawoQiang,WrittenTibetan
 hn	n̥	N	Consonant	13	U+0068 U+006E	"khu¹◦hnɑs,mɑ¹...hnɑŋ¹,ɑ¹hnaṁ²"	WrittenBurmese
@@ -354,6 +354,22 @@ yĩ	ɥ ĩ	J I	Consonant Vowel	3	U+0079 U+0129	"n̥yĩ⁵⁵kɐ³⁵tse³⁵,tsh
 yː	yː	Y	Vowel	4	U+0079 U+02D0	"dzyː¹³,ŋyː⁵⁵,ŋyː⁵⁵kᴀŋ⁵⁵"	MamaTshona
 z$	z	S	Consonant	3	U+007A U+0024	"kuz,tsəɣz,tʃhaz"	MawoQiang
 zʐ	z ʐ	S S	Consonant Consonant	1	U+007A U+0290	"nzʐɯ"	DanbaErgong
+²²_	²² +	1 _	Tone Marker	144	U+00B2 U+00B2	"nɑĩ²²ŋɑ̃²²,tɕɔ²²ɬwɑ⁵⁵,wũ²²pu⁵³lwe²²"	BijiangBai,DafangYi,MileYi,RangoonBurmese,XideYi,Xumi
+²³_	²³ +	2 _	Tone Marker	1	U+00B2 U+00B3	"xə²³tshyi⁵⁵"	QinghuaPumi
+²¹_	²¹ +	3 _	Tone Marker	2075	U+00B2 U+00B9	"bɯ²¹ŋgo²¹,ji²¹ʃi⁵⁵,xo²¹yo¹³"	Anong,Atsi,BijiangBai,BlackLahu,DafangYi,DaliBai,JianchuanBai,Jinuo,MileYi,MojiangYi,NanhuaYi,NanjianYi,QinghuaPumi,Tujia,XideYi
+²⁴_	²⁴ +	2 _	Tone Marker	7	U+00B2 U+2074	"se²⁴li²⁴,ti²⁴ji³¹,tsho²⁴u²⁴"	DazhaiHani
+³$	³	6	Tone	345	U+00B3 U+0024	"lɑj²thɑ¹mɑ³,mi³rɑ¹htɑ³,ɑ¹thɑ³"	Jinuo,MileYi,NanhuaYi,ShuikuiHani,WrittenBurmese,XideYi
+³3_	³³ +	4 _	Tone Marker	1	U+00B3 U+0033	"ma̱³3pi⁵⁵"	CaiyuanHani
+³²_	³² +	3 _	Tone Marker	2	U+00B3 U+00B2	"kɯ³¹tɑl³²mu⁵³kɯ³¹mu⁵³,lɔ³²sɿ̄³³"	Kaman,ShuikuiHani
+³³_	³³ +	4 _	Tone Marker	6152	U+00B3 U+00B3	"dʑɑ̃³³tsho⁵⁵,kɯ³³tshɯ²¹,ʐɿ³³ȵi³³"	Anong,BijiangBai,BlackLahu,CaiyuanHani,DafangYi,DaliBai,Darang,DazhaiHani,Ersu,Guiqiong,JianchuanBai,Jingpho,Jinuo,LijiangNaxi,Lisu,Maru,MileYi,MojiangYi,Muya,Namuyi,NanhuaYi,NanjianYi,QinghuaPumi,RangoonBurmese,ShuikuiHani,Sulong,TaopingQiang,XideYi,Xumi,YajiangQueyu,YongningNaxi
+³¹_	³¹ +	3 _	Tone Marker	5709	U+00B3 U+00B9	"a³¹ȵiŋ⁵⁵,xɑ³¹blɑ⁵³,ʑi³¹xa³¹"	Achang,Anong,BijiangBai,BijiangNusu,BlackLahu,CaiyuanHani,DaliBai,Darang,DazhaiHani,Idu,JianchuanBai,Jingpho,Jinuo,Kaman,KhamsTibetan,LijiangNaxi,Lisu,MamaTshona,Maru,MojiangYi,QinghuaPumi,ShuikuiHani,TaopingQiang,Trung,Tujia,XideYi,YongningNaxi
+³⁵_	³⁵ +	2 _	Tone Marker	2166	U+00B3 U+2075	"nə³⁵m̥ũ³⁵,piɑŋ³⁵sɯ³¹,ʐa³⁵la⁵⁵"	Achang,Anong,BijiangBai,BijiangNusu,BlackLahu,CaiyuanHani,DaliBai,Darang,Guiqiong,Idu,JianchuanBai,Jinuo,Kaman,Lisu,Maru,Muya,Namuyi,ShuikuiHani,TaobaPumi,Tujia,XideYi,Xumi,YajiangQueyu
+³◦	³ +	6 _	Tone Marker	6	U+00B3 U+25E6	"kjɑ³◦thɑs,thɑ³◦mɑk,ɑ nɑ³◦ju²"	WrittenBurmese
+¹$	¹	6	Tone	122	U+00B9 U+0024	"lɑ¹shɑn³ŋɑ³rɑk ne¹,pwɑŋ¹,ê²kɑ¹"	LhasaTibetan,ShuikuiHani,WrittenBurmese
+¹|_	¹ +	6 _	Tone Marker	1	U+00B9 U+007C	"mɑ¹|jɑ³"	WrittenBurmese
+¹³_	¹³ +	2 _	Tone Marker	1187	U+00B9 U+00B3	"le¹³tɕhA⁵³,mɑ¹³də¹³,ʒɛ¹³bʐə̃¹³"	DafangYi,KhamsTibetan,LhasaTibetan,LijiangNaxi,MamaTshona,MotuoTsangla,NanjianYi,QinghuaPumi,TaopingQiang,YongningNaxi
+¹¹_	¹¹ +	1 _	Tone Marker	34	U+00B9 U+00B9	"suat⁵³na¹¹ɣɯək³³,ɔ³¹xuᴀi¹¹mᴀ³³,ᴀ³³qo¹¹ᴀ³³qᴀ³⁵pe³³"	BlackLahu,LhasaTibetan,Sulong
+¹⁵_	¹⁵ +	2 _	Tone Marker	86	U+00B9 U+2075	"pom¹⁵po⁵³,tɔ¹⁵ȵep¹³,ɕaŋ¹⁵ka⁵³tɕhẽ⁵⁵po⁵³"	LhasaTibetan
 ²$	²	6	Tone	331	U+00B2 U+0024	"hnwɑ²,mre²ɔ̂³zɑ²,son²"	Atsi,MojiangYi,RangoonBurmese,WrittenBurmese
 ²²	²² +	1 _	Tone Marker	144	U+00B2 U+00B2	"nɑĩ²²ŋɑ̃²²,tɕɔ²²ɬwɑ⁵⁵,wũ²²pu⁵³lwe²²"	BijiangBai,DafangYi,MileYi,RangoonBurmese,XideYi,Xumi
 ²³	²³ +	2 _	Tone Marker	1	U+00B2 U+00B3	"xə²³tshyi⁵⁵"	QinghuaPumi
@@ -509,6 +525,16 @@ zʐ	z ʐ	S S	Consonant Consonant	1	U+007A U+0290	"nzʐɯ"	DanbaErgong
 ⁵⁵	⁵⁵ +	5 _	Tone Marker	9423	U+2075 U+2075	"liɑ⁵⁵kɯ³¹beŋ⁵⁵,pit⁵⁵ti³⁵,ɕu⁵⁵ɹɑi⁵⁵"	Achang,Anong,Atsi,BijiangBai,BijiangNusu,BlackLahu,CaiyuanHani,DafangYi,DaliBai,Darang,DazhaiHani,Ersu,Guiqiong,Idu,JianchuanBai,Jingpho,Jinuo,Kaman,KhamsTibetan,LhasaTibetan,LijiangNaxi,Lisu,MamaTshona,Maru,MileYi,MojiangYi,Muya,Namuyi,NanhuaYi,NanjianYi,QinghuaPumi,RangoonBurmese,ShuikuiHani,TaobaPumi,TaopingQiang,Trung,Tujia,XideYi,Xumi,YajiangQueyu,YongningNaxi
 53$	⁵³	3	Tone	1	U+0035 U+0033 U+0024	"sa¹³xho 53"	KhamsTibetan
 5³¹	t ³¹ +	T 3 _	Consonant Tone Marker	1	U+0035 U+00B3 U+00B9	"tʃă³¹pho5³¹ʃat³¹"	Jingpho
+⁴²_	⁴² +	3 _	Tone Marker	356	U+2074 U+00B2	"mo⁴²lo²¹,uɑ⁴⁴mi⁴²no³³,ʐeʴ⁴²ŋuɑ⁴⁴"	BijiangBai,BlackLahu,DaliBai,JianchuanBai,Jinuo
+⁴³_	⁴³ +	3 _	Tone Marker	1	U+2074 U+00B3	"phou⁴³jou³¹"	DaliBai
+⁴¹_	⁴¹ +	3 _	Tone Marker	63	U+2074 U+00B9	"dzɑ³³phɑ⁴¹lɑ⁴¹,tʃhi⁴¹mɑ⁴⁴,ʃuɑ⁴⁴o⁴¹tʃɯ³⁵"	Lisu
+⁴⁴_	⁴⁴ +	5 _	Tone Marker	721	U+2074 U+2074	"ko⁴⁴de³¹,mɑ⁴⁴tʃhɿ⁴⁴,tshɿ⁴⁴ʃɿ³¹"	BijiangBai,DaliBai,JianchuanBai,Jinuo,Lisu,Namuyi,RangoonBurmese,XideYi
+⁵²_	⁵² +	3 _	Tone Marker	1	U+2075 U+00B2	"pɑ⁵³htɑ⁵²mɑ⁵³"	RangoonBurmese
+⁵³_	⁵³ +	3 _	Tone Marker	1437	U+2075 U+00B3	"so⁵³mo¹³,tshe⁵⁵pa⁵³ŋa⁵⁵,vᴀ³¹phɯ⁵³sᴀ³³"	Anong,BijiangNusu,BlackLahu,DaliBai,Darang,Guiqiong,Idu,Kaman,KhamsTibetan,LhasaTibetan,MamaTshona,Muya,Namuyi,RangoonBurmese,Sulong,TaobaPumi,Trung,Tujia,Xumi,YajiangQueyu
+⁵¹_	⁵¹ +	3 _	Tone Marker	155	U+2075 U+00B9	"juʔ²¹ke⁵¹tso²¹,miaŋ⁵¹sen⁵⁵tin³¹,pum⁵¹toŋ²¹"	Achang,Atsi,CaiyuanHani,Idu,Jingpho,Lisu,TaopingQiang
+⁵⁴_	⁵⁴ +	3 _	Tone Marker	41	U+2075 U+2074	"mɛ⁵⁴ɣə³⁵,nᴀ⁵⁴mə³¹,ɣᴀ⁵⁴mᴀ³³qu³³"	BlackLahu,LhasaTibetan
+⁵⁵_	⁵⁵ +	5 _	Tone Marker	9423	U+2075 U+2075	"liɑ⁵⁵kɯ³¹beŋ⁵⁵,pit⁵⁵ti³⁵,ɕu⁵⁵ɹɑi⁵⁵"	Achang,Anong,Atsi,BijiangBai,BijiangNusu,BlackLahu,CaiyuanHani,DafangYi,DaliBai,Darang,DazhaiHani,Ersu,Guiqiong,Idu,JianchuanBai,Jingpho,Jinuo,Kaman,KhamsTibetan,LhasaTibetan,LijiangNaxi,Lisu,MamaTshona,Maru,MileYi,MojiangYi,Muya,Namuyi,NanhuaYi,NanjianYi,QinghuaPumi,RangoonBurmese,ShuikuiHani,TaobaPumi,TaopingQiang,Trung,Tujia,XideYi,Xumi,YajiangQueyu,YongningNaxi
+5³¹_	t ³¹ +	T 3 _	Consonant Tone Marker	1	U+0035 U+00B3 U+00B9	"tʃă³¹pho5³¹ʃat³¹"	Jingpho
 ^ai	a i	A I	Vowel Vowel	4	U+005E U+0061 U+0069	"ai³¹tsɿ̄³¹,ai⁵⁵,ai⁵⁵tsa⁵⁵"	CaiyuanHani,Tujia
 ^au	a u	A Y	Vowel Vowel	7	U+005E U+0061 U+0075	"au³¹,auŋ³¹,au⁵⁵khɯ⁵⁵"	Achang,Atsi,Maru,Tujia
 ^aː	aː	A	Vowel	3	U+005E U+0061 U+02D0	"aː lo,aː luŋ,aː◦to"	BokarLhoba
@@ -777,6 +803,12 @@ xʂ$	x ʂ	G S	Consonant Consonant	1	U+0078 U+0282 U+0024	"kuə◦xʂ"	MawoQiang
 ¹¹$	¹¹	1	Tone	170	U+00B9 U+00B9 U+0024	"a³³ɣaŋ¹¹,heʴn³³tak¹¹,zᴀ²¹zi³⁵si¹¹"	BlackLahu,Sulong
 ¹⁵$	¹⁵	2	Tone	88	U+00B9 U+2075 U+0024	"khaŋ⁵⁵tɕi¹⁵,khø̃¹⁵,tʂum¹⁵"	LhasaTibetan
 ¹⁵-	¹⁵ +	2 _	Tone Marker	6	U+00B9 U+2075 U+002D	"jaŋ¹⁵-thak¹³pa,tho¹³tam¹⁵-tɕhɛʔ¹³,tɕhu⁵³kỹ¹⁵-tʂum¹⁵"	LhasaTibetan
+²⁴¹_	²⁴¹ +	6 _	Tone Marker	21	U+00B2 U+2074 U+00B9	"bə²⁴¹bə³¹,dio²⁴¹ʁue²⁴¹,dʐɿ²⁴¹pa³³pə³³"	TaopingQiang
+³³|_	³³ +	4 _	Tone Marker	21	U+00B3 U+00B3 U+007C	"lo³³|tsɯ⁴⁴,tha³³|la³³m̩²¹,ʃă³³|kan³³"	BijiangBai,Ersu,Jingpho,LijiangNaxi,Lisu,MojiangYi,Namuyi,NanjianYi,Sulong,TaopingQiang,Xumi,YajiangQueyu,YongningNaxi
+³¹ᵊ_	³¹ +	3 _	Tone Marker	2	U+00B3 U+00B9 U+1D4A	"gi⁵⁵xɑ³¹ᵊɹɑɯ⁵⁵,ɕɑ³¹ᵊɹɑ³¹uɑ⁵⁵tʂhɿ³¹"	Anong,Darang
+¹³-_	¹³ +	2 _	Tone Marker	11	U+00B9 U+00B3 U+002D	"khəp⁵³tuŋ¹³-taŋ⁵⁵,lɛʔ¹³-la⁵³po⁵³,ɕa⁵³la¹³-cap¹³"	LhasaTibetan
+¹³|_	¹³ +	2 _	Tone Marker	5	U+00B9 U+00B3 U+007C	"ja¹³|tse⁵³,lɔ¹³|sᴀr⁵⁵thoʔ⁵³,nə¹³|stʃɯu⁵⁵"	KhamsTibetan,LhasaTibetan,MamaTshona,QinghuaPumi
+¹⁵-_	¹⁵ +	2 _	Tone Marker	6	U+00B9 U+2075 U+002D	"jaŋ¹⁵-thak¹³pa,tho¹³tam¹⁵-tɕhɛʔ¹³,tɕhu⁵³kỹ¹⁵-tʂum¹⁵"	LhasaTibetan
 ă̱̱	ă̠/a	A	Vowel	1	U+0103 U+0331 U+0331	"kă̱̱⁵⁵la⁵⁵ta̱³³"	Jingpho
 ŋs$	ŋ s	N S	Consonant Consonant	3	U+014B U+0073 U+0024	"gaŋs,gdaŋs,spuŋs"	WrittenTibetan
 ŋ|$	ŋ	N	Consonant	2	U+014B U+007C U+0024	"dʑu dʑaŋ|,ko noŋ|"	BokarLhoba
@@ -808,6 +840,9 @@ xʂ$	x ʂ	G S	Consonant Consonant	1	U+0078 U+0282 U+0024	"kuə◦xʂ"	MawoQiang
 ɯː$	ɯː	I	Vowel	12	U+026F U+02D0 U+0024	"mɯ |kɯː,ɕa rɯː,ɦɯk rɯː"	BokarLhoba
 ɯ̆ʴ	ɯ˞̆/ɯ˞	I	Vowel	4	U+026F U+0306 U+02B4	"duŋ⁵⁵bɯ̆ʴ⁵³,gɯ̆ʴ⁵⁵,pɯ̆ʴ⁵⁵kɔ̆ʔ⁵⁵"	Trung
 ˌv̱	v̠̩	B	Consonant	1	U+02CC U+0076 U+0331	"tˌv̱³¹ v̱³¹"	ShuikuiHani
+_	+
+_$	NULL
+^_	NULL
 ᴀ̱̃	ã̠/ã	A	Vowel	1	U+1D00 U+0331 U+0303	"ʑĩ̱²¹xᴀ̱̃²¹"	NanhuaYi
 ẽɪ̃	ẽ ɪ	E I	Vowel Vowel	6	U+1EBD U+026A U+0303	"tʂhẽɪ̃⁵⁵thuŋ²¹,ɑ⁵⁵ʂẽɪ̃²¹,ʑi³³sẽɪ̃³³"	NanjianYi
 ⁴²$	⁴²	3	Tone	554	U+2074 U+00B2 U+0024	"kɛ⁴²to⁴²,tsi⁴²,tɕi⁴²"	BijiangBai,BlackLahu,DaliBai,JianchuanBai,Jinuo
@@ -891,3 +926,18 @@ uẽɪ̃	w ẽ ɪ	W E I	Consonant Vowel Vowel	1	U+0075 U+1EBD U+026A U+0303	"tʂ
 ⁵⁶⁵$	⁵⁵	5	Tone	1	U+2075 U+2076 U+2075 U+0024	"dʑɛ³⁵do⁵⁶⁵"	Muya
 ^tshw	tsʰ w	C W	Consonant Consonant	2	U+005E U+0074 U+0073 U+0068 U+0077	"tshwa,tshwa khu"	WrittenTibetan
 ^tɕhw	tɕʰ w	C W	Consonant Consonant	2	U+005E U+0074 U+0255 U+0068 U+0077	"tɕhwe⁵⁵,tɕhwe⁵⁵mɑ⁵³"	RangoonBurmese
+³³_$	³³
+⁵⁵_$	⁵⁵
+⁴⁴_$	⁴⁴
+²¹_$	²¹
+²?$	²
+³³_??	³³
+⁵³___????	⁵³
+¹³_$	¹³
+__??$	NULL
+³¹_$	³¹
+⁵⁵___!!!!!	⁵⁵
+⁵⁵___???$	⁵⁵
+__tone??	NULL
+⁵⁵__	⁵⁵ +
+¹⁵_-_	¹⁵ +
