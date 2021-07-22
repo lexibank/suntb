@@ -15,6 +15,6 @@ setup(
     include_package_data=True,
     zip_safe=False,
     entry_points={"lexibank.dataset": ["suntb=lexibank_suntb:Dataset"]},
-    install_requires=["pylexibank>=2.1", "segments>=2.0.2"],
+    install_requires=["pylexibank>=3.0", "segments>=2.0.2"],
     extras_require={"test": ["pytest-cldf"]},
 )

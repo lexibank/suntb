@@ -1,16 +1,12 @@
 from pathlib import Path
 
 import attr
+import pylexibank
 from clldutils.misc import slug
-from pylexibank import FormSpec
-from pylexibank import Language, Concept
-from pylexibank import progressbar
-from pylexibank.dataset import Dataset as BaseDataset
-from pylexibank.util import getEvoBibAsBibtex
 
 
 @attr.s
-class CustomLanguage(Language):
+class CustomLanguage(pylexibank.Language):
     Latitude = attr.ib(default=None)
     Longitude = attr.ib(default=None)
     SubGroup = attr.ib(default=None)
@@ -18,17 +14,17 @@ class CustomLanguage(Language):
 
 
 @attr.s
-class CustomConcept(Concept):
+class CustomConcept(pylexibank.Concept):
     Chinese_Gloss = attr.ib(default=None)
     Number = attr.ib(default=None)
 
 
-class Dataset(BaseDataset):
+class Dataset(pylexibank.Dataset):
     dir = Path(__file__).parent
     id = "suntb"
     language_class = CustomLanguage
     concept_class = CustomConcept
-    form_spec = FormSpec(
+    form_spec = pylexibank.FormSpec(
         separators=";,/",
         missing_data=("*", "---", "-", "--"),
         replacements=[(" ", "_")],
@@ -36,10 +32,9 @@ class Dataset(BaseDataset):
     )
 
     def cmd_download(self, args):
-        self.raw_dir.write("sources.bib", getEvoBibAsBibtex("Sun1991"))
+        self.raw_dir.write("sources.bib", pylexibank.util.getEvoBibAsBibtex("Sun1991"))
 
     def cmd_makecldf(self, args):
-
         args.writer.add_sources()
         language_lookup = args.writer.add_languages(lookup_factory="Name")
 
@@ -55,7 +50,7 @@ class Dataset(BaseDataset):
                 Name=concept.english,
                 Chinese_Gloss=concept.attributes["chinese"],
             )
-        for entry in progressbar(
+        for entry in pylexibank.progressbar(
             self.raw_dir.read_csv("ZMYYC.csv", delimiter="\t", dicts=True)
         ):
             args.writer.add_forms_from_value(

@@ -365,7 +365,6 @@ zʐ	z ʐ	S S	Consonant Consonant	1	U+007A U+0290	"nzʐɯ"	DanbaErgong
 ³¹_	³¹ +	3 _	Tone Marker	5709	U+00B3 U+00B9	"a³¹ȵiŋ⁵⁵,xɑ³¹blɑ⁵³,ʑi³¹xa³¹"	Achang,Anong,BijiangBai,BijiangNusu,BlackLahu,CaiyuanHani,DaliBai,Darang,DazhaiHani,Idu,JianchuanBai,Jingpho,Jinuo,Kaman,KhamsTibetan,LijiangNaxi,Lisu,MamaTshona,Maru,MojiangYi,QinghuaPumi,ShuikuiHani,TaopingQiang,Trung,Tujia,XideYi,YongningNaxi
 ³⁵_	³⁵ +	2 _	Tone Marker	2166	U+00B3 U+2075	"nə³⁵m̥ũ³⁵,piɑŋ³⁵sɯ³¹,ʐa³⁵la⁵⁵"	Achang,Anong,BijiangBai,BijiangNusu,BlackLahu,CaiyuanHani,DaliBai,Darang,Guiqiong,Idu,JianchuanBai,Jinuo,Kaman,Lisu,Maru,Muya,Namuyi,ShuikuiHani,TaobaPumi,Tujia,XideYi,Xumi,YajiangQueyu
 ³◦	³ +	6 _	Tone Marker	6	U+00B3 U+25E6	"kjɑ³◦thɑs,thɑ³◦mɑk,ɑ nɑ³◦ju²"	WrittenBurmese
-¹$	¹	6	Tone	122	U+00B9 U+0024	"lɑ¹shɑn³ŋɑ³rɑk ne¹,pwɑŋ¹,ê²kɑ¹"	LhasaTibetan,ShuikuiHani,WrittenBurmese
 ¹|_	¹ +	6 _	Tone Marker	1	U+00B9 U+007C	"mɑ¹|jɑ³"	WrittenBurmese
 ¹³_	¹³ +	2 _	Tone Marker	1187	U+00B9 U+00B3	"le¹³tɕhA⁵³,mɑ¹³də¹³,ʒɛ¹³bʐə̃¹³"	DafangYi,KhamsTibetan,LhasaTibetan,LijiangNaxi,MamaTshona,MotuoTsangla,NanjianYi,QinghuaPumi,TaopingQiang,YongningNaxi
 ¹¹_	¹¹ +	1 _	Tone Marker	34	U+00B9 U+00B9	"suat⁵³na¹¹ɣɯək³³,ɔ³¹xuᴀi¹¹mᴀ³³,ᴀ³³qo¹¹ᴀ³³qᴀ³⁵pe³³"	BlackLahu,LhasaTibetan,Sulong
@@ -376,13 +375,11 @@ zʐ	z ʐ	S S	Consonant Consonant	1	U+007A U+0290	"nzʐɯ"	DanbaErgong
 ²¹	²¹ +	3 _	Tone Marker	2075	U+00B2 U+00B9	"bɯ²¹ŋgo²¹,ji²¹ʃi⁵⁵,xo²¹yo¹³"	Anong,Atsi,BijiangBai,BlackLahu,DafangYi,DaliBai,JianchuanBai,Jinuo,MileYi,MojiangYi,NanhuaYi,NanjianYi,QinghuaPumi,Tujia,XideYi
 ²⁴	²⁴ +	2 _	Tone Marker	7	U+00B2 U+2074	"se²⁴li²⁴,ti²⁴ji³¹,tsho²⁴u²⁴"	DazhaiHani
 ²◦	² +	6 _	Tone Marker	5	U+00B2 U+25E6	"jɑ¹◦mɑn²◦hnɑs,kjɑs hsɑṁ²◦mri³,re²◦ŋɑt"	WrittenBurmese
-³$	³	6	Tone	345	U+00B3 U+0024	"lɑj²thɑ¹mɑ³,mi³rɑ¹htɑ³,ɑ¹thɑ³"	Jinuo,MileYi,NanhuaYi,ShuikuiHani,WrittenBurmese,XideYi
 ³3	³³ +	4 _	Tone Marker	1	U+00B3 U+0033	"ma̱³3pi⁵⁵"	CaiyuanHani
 ³²	³² +	3 _	Tone Marker	2	U+00B3 U+00B2	"kɯ³¹tɑl³²mu⁵³kɯ³¹mu⁵³,lɔ³²sɿ̄³³"	Kaman,ShuikuiHani
 ³³	³³ +	4 _	Tone Marker	6152	U+00B3 U+00B3	"dʑɑ̃³³tsho⁵⁵,kɯ³³tshɯ²¹,ʐɿ³³ȵi³³"	Anong,BijiangBai,BlackLahu,CaiyuanHani,DafangYi,DaliBai,Darang,DazhaiHani,Ersu,Guiqiong,JianchuanBai,Jingpho,Jinuo,LijiangNaxi,Lisu,Maru,MileYi,MojiangYi,Muya,Namuyi,NanhuaYi,NanjianYi,QinghuaPumi,RangoonBurmese,ShuikuiHani,Sulong,TaopingQiang,XideYi,Xumi,YajiangQueyu,YongningNaxi
 ³¹	³¹ +	3 _	Tone Marker	5709	U+00B3 U+00B9	"a³¹ȵiŋ⁵⁵,xɑ³¹blɑ⁵³,ʑi³¹xa³¹"	Achang,Anong,BijiangBai,BijiangNusu,BlackLahu,CaiyuanHani,DaliBai,Darang,DazhaiHani,Idu,JianchuanBai,Jingpho,Jinuo,Kaman,KhamsTibetan,LijiangNaxi,Lisu,MamaTshona,Maru,MojiangYi,QinghuaPumi,ShuikuiHani,TaopingQiang,Trung,Tujia,XideYi,YongningNaxi
 ³⁵	³⁵ +	2 _	Tone Marker	2166	U+00B3 U+2075	"nə³⁵m̥ũ³⁵,piɑŋ³⁵sɯ³¹,ʐa³⁵la⁵⁵"	Achang,Anong,BijiangBai,BijiangNusu,BlackLahu,CaiyuanHani,DaliBai,Darang,Guiqiong,Idu,JianchuanBai,Jinuo,Kaman,Lisu,Maru,Muya,Namuyi,ShuikuiHani,TaobaPumi,Tujia,XideYi,Xumi,YajiangQueyu
-³◦	³ +	6 _	Tone Marker	6	U+00B3 U+25E6	"kjɑ³◦thɑs,thɑ³◦mɑk,ɑ nɑ³◦ju²"	WrittenBurmese
 ¹$	¹	6	Tone	122	U+00B9 U+0024	"lɑ¹shɑn³ŋɑ³rɑk ne¹,pwɑŋ¹,ê²kɑ¹"	LhasaTibetan,ShuikuiHani,WrittenBurmese
 ¹|	¹ +	6 _	Tone Marker	1	U+00B9 U+007C	"mɑ¹|jɑ³"	WrittenBurmese
 ¹³	¹³ +	2 _	Tone Marker	1187	U+00B9 U+00B3	"le¹³tɕhA⁵³,mɑ¹³də¹³,ʒɛ¹³bʐə̃¹³"	DafangYi,KhamsTibetan,LhasaTibetan,LijiangNaxi,MamaTshona,MotuoTsangla,NanjianYi,QinghuaPumi,TaopingQiang,YongningNaxi
