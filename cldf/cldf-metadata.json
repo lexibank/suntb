@@ -17,7 +17,7 @@
         {
             "rdf:about": "https://github.com/lexibank/suntb",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.0",
+            "dc:created": "v4.0-1-g843b2f5",
             "dc:title": "Repository"
         },
         {
