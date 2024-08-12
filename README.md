@@ -29,23 +29,23 @@ Conceptlists in Concepticon:
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
-- **Varieties:** 51
-- **Concepts:** 1,004
+- **Varieties:** 51 (linked to 49 different Glottocodes)
+- **Concepts:** 1,004 (linked to 931 different Concepticon concept sets)
 - **Lexemes:** 50,434
 - **Sources:** 1
 - **Synonymy:** 1.02
 - **Invalid lexemes:** 0
 - **Tokens:** 306,030
-- **Segments:** 295 (0 BIPA errors, 0 CTLS sound class errors, 294 CLTS modified)
-- **Inventory size (avg):** 64.41
+- **Segments:** 297 (0 BIPA errors, 0 CLTS sound class errors, 296 CLTS modified)
+- **Inventory size (avg):** 64.86
 
 # Contributors
 
 Name | GitHub user | Description | Role
 --- | --- | --- | ---
-Johann-Mattis List | @LinguList | maintainer | Other
-Tiago Tresoldi | @tresoldi | original profile and lexibank code | Other 
-STEDT | https://stedt.berkeley.edu | digitization | Editor
+Johann-Mattis List | @LinguList | maintainer | Editor
+Tiago Tresoldi | @tresoldi | original profile and Lexibank code | Other
+STEDT | https://stedt.berkeley.edu | digitization | DataCurator
 Sūn, Hóngkāi | | original data collection editor | Author
 
 
